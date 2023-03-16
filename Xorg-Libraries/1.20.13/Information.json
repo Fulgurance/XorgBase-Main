@@ -181,20 +181,5 @@
       "options": []
     }
   ],
-  "options": [
-    {
-      "name": "Font-Util",
-      "description": "Enable font-util support",
-      "active": false,
-      "dependencies": [
-        {
-          "name": "Font-Util",
-          "version": "1.3.2",
-          "options": []
-        }
-      ],
-      "downloadLinks": [],
-      "md5sums": []
-    }
-  ]
+  "options": []
 }
