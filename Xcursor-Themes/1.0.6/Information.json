@@ -1,0 +1,20 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Xcursor-Themes",
+  "version": "1.0.6",
+  "architectures": ["x86_64"],
+  "description": "X.Org cursor themes",
+  "website": "https://www.x.org",
+  "downloadLinks": ["https://www.x.org/pub/individual/data/xcursor-themes-1.0.6.tar.bz2"],
+  "md5sums": ["aea14eabf40528ec4db18f1cfcf5c458"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Xorg-Applications",
+      "version": "1.20.6",
+      "options": []
+    }
+  ],
+  "options": []
+}

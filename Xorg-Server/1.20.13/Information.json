@@ -1,0 +1,30 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Xorg-Server",
+  "version": "1.20.13",
+  "architectures": ["x86_64"],
+  "description": "X server",
+  "website": "https://www.x.org",
+  "downloadLinks": ["https://www.x.org/pub/individual/xserver/xorg-server-1.20.13.tar.xz"],
+  "md5sums": ["9acb2a51507e6056b09e3d3f19565419"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Pixman",
+      "version": "0.40.0",
+      "options": []
+    },
+    {
+      "name": "Xorg-Fonts",
+      "version": "1.20.13",
+      "options": ["Font-Util"]
+    },
+    {
+      "name": "Xkeyboard-Config",
+      "version": "2.33.0",
+      "options": []
+    }
+  ],
+  "options": []
+}

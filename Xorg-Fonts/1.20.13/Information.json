@@ -1,0 +1,141 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Xorg-Fonts",
+  "version": "1.20.13",
+  "architectures": ["x86_64"],
+  "description": "Xorg fonts",
+  "website": "https://www.x.org",
+  "downloadLinks": [],
+  "md5sums": [],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [],
+  "options": [
+    {
+      "name": "Font-Util",
+      "description": "Enable font-util support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Font-Util",
+          "version": "1.3.2",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    },
+    {
+      "name": "Encodings",
+      "description": "Enable encoding font support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Encoding",
+          "version": "1.0.5",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    },
+    {
+      "name": "Font-Alias",
+      "description": "Enable font-alias support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Font-Alias",
+          "version": "1.0.4",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    },
+    {
+      "name": "Font-Adobe-Utopia-Type1",
+      "description": "Enable font-adobe-utopia-type1 support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Font-Adobe-Utopia-Type1",
+          "version": "1.0.4",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    },
+    {
+      "name": "Font-Bh-Ttf",
+      "description": "Enable font-bh-ttf support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Font-Bh-Ttf",
+          "version": "1.0.3",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    },
+    {
+      "name": "Font-Bh-Type1",
+      "description": "Enable font-bh-type1 support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Font-Bh-Type1",
+          "version": "1.0.3",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    },
+    {
+      "name": "Font-Ibm-Type1",
+      "description": "Enable font-ibm-type1 support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Font-Ibm-Type1",
+          "version": "1.0.3",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    },
+    {
+      "name": "Font-Misc-Ethiopic",
+      "description": "Enable font-misc-ethiopic support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Font-Misc-Ethiopic",
+          "version": "1.0.4",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    },
+    {
+      "name": "Font-Xfree86-Type1",
+      "description": "Enable font-xfree86-type1 support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Font-Xfree86-Type1",
+          "version": "1.0.4",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    }
+  ]
+}
