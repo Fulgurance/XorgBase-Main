@@ -6,15 +6,8 @@ class Target < ISM::Software
         configureSource([   "--prefix=/usr",
                             "--sysconfdir=/etc",
                             "--localstatedir=/var",
-                            "--disable-static",
-                            "--with-xkb-rules-symlink=xorg"],
+                            "--disable-static"],
                             buildDirectoryPath)
-    end
-
-    def build
-        super
-
-        makeSource([Ism.settings.makeOptions],buildDirectoryPath)
     end
 
     def prepareInstallation
