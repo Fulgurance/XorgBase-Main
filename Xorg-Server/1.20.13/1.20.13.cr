@@ -31,7 +31,7 @@ class Target < ISM::Software
         /tmp/.ICE-unix dir 1777 root root
         /tmp/.X11-unix dir 1777 root root
         CODE
-        fileWriteData("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}etc/sysconfig/createfiles",createFilesData)
+        fileAppendData("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}etc/sysconfig/createfiles",createFilesData)
     end
 
 end

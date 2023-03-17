@@ -26,5 +26,62 @@
       "options": []
     }
   ],
-  "options": []
+  "options": [
+    {
+      "name": "Elogind",
+      "description": "Enable elogind support",
+      "active": true,
+      "dependencies": [
+        {
+          "name": "Elogind",
+          "version": "246.10.0",
+          "options": ["Linux-Pam","Polkit"]
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    },
+    {
+      "name": "Libepoxy",
+      "description": "Enable libepoxy support for glamor and Xwayland",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libepoxy",
+          "version": "1.5.9",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    },
+    {
+      "name": "Wayland-Protocols",
+      "description": "Enable wayland-protocols support for Xwayland",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Wayland-Protocols",
+          "version": "1.21.0",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    },
+    {
+      "name": "Acpid",
+      "description": "Enable acpid support",
+      "active": true,
+      "dependencies": [
+        {
+          "name": "Acpid",
+          "version": "2.0.32",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    }
+  ]
 }
