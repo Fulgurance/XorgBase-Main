@@ -7,7 +7,8 @@ class Target < ISM::Software
                             "--sysconfdir=/etc",
                             "--localstatedir=/var",
                             "--disable-static",
-                            "--with-xkb-rules-symlink=xorg"],
+                            "--with-xkb-rules-symlink=xorg",
+                            "--disable-runtime-deps"],
                             buildDirectoryPath)
     end
 
