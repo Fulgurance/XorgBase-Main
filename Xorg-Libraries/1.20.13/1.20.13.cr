@@ -25,6 +25,7 @@ class Target < ISM::Software
     end
 
     def install
+        Ism.addInstalledSoftware(@information)
     end
 
     def clean

@@ -29,6 +29,7 @@ class Target < ISM::Software
         setPermissions("#{Ism.settings.rootPath}usr/share/fonts",0o755)
         makeLink("/usr/share/fonts/X11/OTF","#{Ism.settings.rootPath}usr/share/fonts/X11-OTF",:symbolicLinkByOverwrite)
         makeLink("/usr/share/fonts/X11/TTF","#{Ism.settings.rootPath}usr/share/fonts/X11-TTF",:symbolicLinkByOverwrite)
+        Ism.addInstalledSoftware(@information)
     end
 
     def clean
