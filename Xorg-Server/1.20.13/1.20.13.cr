@@ -27,11 +27,14 @@ class Target < ISM::Software
         makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}etc/X11/xorg.conf.d")
         makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}etc/sysconfig")
 
+
+        copyFile("#{Ism.settings.rootPath}etc/sysconfig/createfiles","#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}etc/sysconfig/createfiles")
+
         createFilesData = <<-CODE
         /tmp/.ICE-unix dir 1777 root root
         /tmp/.X11-unix dir 1777 root root
         CODE
-        fileAppendData("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}etc/sysconfig/createfiles",createFilesData)
+        fileUpdateContent("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}etc/sysconfig/createfiles",createFilesData)
     end
 
 end
