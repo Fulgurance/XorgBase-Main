@@ -12,7 +12,7 @@
   "dependencies": [
     {
       "name": "Xorg-Applications",
-      "version": "1.20.6",
+      "version": "1.20.13",
       "options": []
     }
   ],
