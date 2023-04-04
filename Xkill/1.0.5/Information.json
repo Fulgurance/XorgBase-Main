@@ -1,0 +1,14 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Xkill",
+  "version": "1.0.5",
+  "architectures": ["x86_64"],
+  "description": "Utility to forcibly terminate X11 clients",
+  "website": "https://www.x.org",
+  "downloadLinks": ["https://www.x.org/pub/individual/app/xkill-1.0.5.tar.bz2"],
+  "md5sums": ["938177e4472c346cf031c1aefd8934fc"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [],
+  "options": []
+}

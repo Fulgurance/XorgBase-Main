@@ -1,0 +1,14 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Xwd",
+  "version": "1.0.8",
+  "architectures": ["x86_64"],
+  "description": "Utility to dump an image of an X window in XWD format",
+  "website": "https://www.x.org",
+  "downloadLinks": ["https://www.x.org/pub/individual/app/xwd-1.0.8.tar.bz2"],
+  "md5sums": ["f783a209f2e3fa13253cedb65eaf9cdb"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [],
+  "options": []
+}

@@ -1,0 +1,14 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Xkbcomp",
+  "version": "1.4.5",
+  "architectures": ["x86_64"],
+  "description": "XKB keyboard description compiler",
+  "website": "https://www.x.org",
+  "downloadLinks": ["https://www.x.org/pub/individual/app/xkbcomp-1.4.5.tar.bz2"],
+  "md5sums": ["c45e9f7971a58b8f0faf10f6d8f298c0"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [],
+  "options": []
+}

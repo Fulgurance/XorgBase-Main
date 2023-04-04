@@ -1,0 +1,14 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Xmessage",
+  "version": "1.0.5",
+  "architectures": ["x86_64"],
+  "description": "Display a message or query in a window",
+  "website": "https://www.x.org",
+  "downloadLinks": ["https://www.x.org/pub/individual/app/xmessage-1.0.5.tar.bz2"],
+  "md5sums": ["e50ffae17eeb3943079620cb78f5ce0b"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [],
+  "options": []
+}
