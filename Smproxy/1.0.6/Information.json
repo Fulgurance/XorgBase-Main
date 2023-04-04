@@ -1,0 +1,14 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Smproxy",
+  "version": "1.0.6",
+  "architectures": ["x86_64"],
+  "description": "Session Manager Proxy",
+  "website": "https://www.x.org",
+  "downloadLinks": ["https://www.x.org/pub/individual/app/smproxy-1.0.6.tar.bz2"],
+  "md5sums": ["3a93d9f0859de5d8b65a68a125d48f6a"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [],
+  "options": []
+}

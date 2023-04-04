@@ -1,0 +1,14 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Setxkbmap",
+  "version": "1.3.2",
+  "architectures": ["x86_64"],
+  "description": "Set keymaps layouts and options via the X Keyboard Extension",
+  "website": "https://www.x.org",
+  "downloadLinks": ["https://www.x.org/pub/individual/app/setxkbmap-1.3.2.tar.bz2"],
+  "md5sums": ["93e736c98fb75856ee8227a0c49a128d"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [],
+  "options": []
+}
