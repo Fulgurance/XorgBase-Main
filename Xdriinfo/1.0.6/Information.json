@@ -9,6 +9,12 @@
   "md5sums": ["480e63cd365f03eb2515a6527d5f4ca6"],
   "patchesLinks": [],
   "installedFiles": [],
-  "dependencies": [],
+  "dependencies": [
+    {
+      "name": "Mesa",
+      "version": "21.2.1",
+      "options": []
+    }
+  ],
   "options": []
 }
