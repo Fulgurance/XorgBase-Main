@@ -1,0 +1,20 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Xclock",
+  "version": "1.0.9",
+  "architectures": ["x86_64"],
+  "description": "Analog / digital clock for X",
+  "website": "https://www.x.org",
+  "downloadLinks": ["https://www.x.org/pub/individual/app/xclock-1.0.9.tar.bz2"],
+  "md5sums": ["437522a96f424f68fc64ed34ece9b211"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Xorg-Libraries",
+    "version": "1.20.13",
+    "options": []
+    }
+  ],
+  "options": []
+}
