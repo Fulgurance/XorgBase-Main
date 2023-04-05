@@ -5,7 +5,7 @@
   "architectures": ["x86_64"],
   "description": "Utility to print an X window dump from xwd",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/app/xprop-1.0.5.tar.bz2"],
+  "downloadLinks": ["https://www.x.org/pub/individual/app/xprop-1.2.5.tar.bz2"],
   "md5sums": ["2358e29133d183ff67d4ef8afd70b9d2"],
   "patchesLinks": [],
   "installedFiles": [],
