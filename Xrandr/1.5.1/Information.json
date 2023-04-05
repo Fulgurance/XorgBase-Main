@@ -5,7 +5,7 @@
   "architectures": ["x86_64"],
   "description": "Command line interface to X11 Resize Rotate and Reflect extension",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/app/xrandr-1.5.1.tar.bz2"],
+  "downloadLinks": ["https://www.x.org/pub/individual/app/xrandr-1.5.1.tar.xz"],
   "md5sums": ["fe40f7a4fd39dd3a02248d3e0b1972e4"],
   "patchesLinks": [],
   "installedFiles": [],
