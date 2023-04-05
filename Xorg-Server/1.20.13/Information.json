@@ -24,6 +24,11 @@
       "name": "Xkeyboard-Config",
       "version": "2.33.0",
       "options": []
+    },
+    {
+      "name": "Libepoxy",
+      "version": "1.5.9",
+      "options": []
     }
   ],
   "options": [
@@ -36,20 +41,6 @@
           "name": "Elogind",
           "version": "246.10.0",
           "options": ["Linux-Pam","Polkit"]
-        }
-      ],
-      "downloadLinks": [],
-      "md5sums": []
-    },
-    {
-      "name": "Libepoxy",
-      "description": "Enable libepoxy support for glamor and Xwayland",
-      "active": false,
-      "dependencies": [
-        {
-          "name": "Libepoxy",
-          "version": "1.5.9",
-          "options": []
         }
       ],
       "downloadLinks": [],
