@@ -11,7 +11,7 @@
   "installedFiles": [],
   "dependencies": [
     {
-      "name": "Xcb-Utils",
+      "name": "Xcb-Util",
       "version": "0.4.0",
       "options": []
     }
