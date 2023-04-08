@@ -47,8 +47,22 @@
       "md5sums": []
     },
     {
+      "name": "Wayland",
+      "description": "Enable wayland support for Xwayland",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Wayland",
+          "version": "1.19.0",
+          "options": []
+        }
+      ],
+      "downloadLinks": [],
+      "md5sums": []
+    },
+    {
       "name": "Wayland-Protocols",
-      "description": "Enable wayland-protocols support for Xwayland",
+      "description": "Enable wayland-protocols support",
       "active": false,
       "dependencies": [
         {
