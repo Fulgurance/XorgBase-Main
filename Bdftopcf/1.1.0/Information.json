@@ -1,0 +1,20 @@
+{
+  "port": "GraphicsLibraries-Main",
+  "name": "Bdftopcf",
+  "version": "1.1.0",
+  "architectures": ["x86_64"],
+  "description": "Convert X font from Bitmap Distribution Format to Portable Compiled Format",
+  "website": "https://gitlab.freedesktop.org/xorg/util/bdftopcf/",
+  "downloadLinks": ["https://www.x.org/pub/individual/app/bdftopcf-1.1.tar.bz2"],
+  "md5sums": ["2a455d3c02390597feb9cefb3fe97a45"],
+  "patchesLinks": [],
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Xcursor-Themes",
+      "version": "1.0.6",
+      "options": []
+    }
+  ],
+  "options": []
+}
