@@ -1,5 +1,5 @@
 {
-  "port": "GraphicsLibraries-Main",
+  "port": "XorgBase-Main",
   "name": "Bdftopcf",
   "version": "1.1.0",
   "architectures": ["x86_64"],
