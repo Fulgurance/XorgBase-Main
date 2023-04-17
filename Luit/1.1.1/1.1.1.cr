@@ -11,8 +11,7 @@ class Target < ISM::Software
 
         configureSource([   "--prefix=/usr",
                             "--sysconfdir=/etc",
-                            "--localstatedir=/var",
-                            "--disable-static"],
+                            "--localstatedir=/var"],
                             buildDirectoryPath)
     end
     
