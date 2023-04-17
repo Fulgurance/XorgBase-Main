@@ -14,7 +14,17 @@
       "name": "SystemBase",
       "version": "0.2.0",
       "options": []
-    }
+    },
+    {
+      "name": "LibX11",
+      "version": "1.7.2",
+      "options": []
+    },
+    {
+      "name": "LibXcursor",
+      "version": "1.2.0",
+      "options": []
+    },
   ],
   "options": []
 }
