@@ -14,7 +14,12 @@
       "name": "SystemBase",
       "version": "0.2.0",
       "options": []
-    }
+    },
+    {
+      "name": "Xorgproto",
+      "version": "0.0.0-+20210401",
+      "options": []
+    },
   ],
   "options": []
 }
