@@ -14,6 +14,21 @@
       "name": "SystemBase",
       "version": "0.2.0",
       "options": []
+    },
+    {
+      "name": "Xrandr",
+      "version": "1.5.1",
+      "options": []
+    },
+    {
+      "name": "LibX11",
+      "version": "1.7.2",
+      "options": []
+    },
+    {
+      "name": "Xorgproto",
+      "version": "0.0.0-+20210401",
+      "options": []
     }
   ],
   "options": []
