@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "X server",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/xserver/xorg-server-1.20.13.tar.xz"],
-  "md5sums": ["9acb2a51507e6056b09e3d3f19565419"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {
@@ -43,8 +40,6 @@
           "options": ["Linux-Pam","Polkit"]
         }
       ],
-      "downloadLinks": [],
-      "md5sums": []
     },
     {
       "name": "Wayland",
@@ -57,8 +52,6 @@
           "options": []
         }
       ],
-      "downloadLinks": [],
-      "md5sums": []
     },
     {
       "name": "Wayland-Protocols",
@@ -71,8 +64,6 @@
           "options": []
         }
       ],
-      "downloadLinks": [],
-      "md5sums": []
     },
     {
       "name": "Acpid",
@@ -85,8 +76,6 @@
           "options": []
         }
       ],
-      "downloadLinks": [],
-      "md5sums": []
     }
   ]
 }

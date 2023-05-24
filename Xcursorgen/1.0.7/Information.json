@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Prepares X11 cursor sets for use with libXcursor",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/app/xcursorgen-1.0.7.tar.bz2"],
-  "md5sums": ["25cc7ca1ce5dcbb61c2b471c55e686b5"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

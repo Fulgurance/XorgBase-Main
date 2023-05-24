@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Filter that can be run between an arbitrary application and a UTF-8 terminal emulator",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/app/luit-1.1.1.tar.bz2"],
-  "md5sums": ["c4a3664e08e5a47c120ff9263ee2f20c"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

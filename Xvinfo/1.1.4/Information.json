@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Utility to print out X-Video extension adaptor information",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/app/xvinfo-1.1.4.tar.bz2"],
-  "md5sums": ["b13afec137b9b331814a9824ab03ec80"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

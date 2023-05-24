@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "X authority file utility",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/app/xauth-1.1.tar.bz2"],
-  "md5sums": ["e50587c1bb832aafd1a19d91a0890a0b"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

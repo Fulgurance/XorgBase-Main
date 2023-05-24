@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Utility to refresh all or part of an X screen",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/app/xrefresh-1.0.6.tar.bz2"],
-  "md5sums": ["c56fa4adbeed1ee5173f464a4c4a61a6"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

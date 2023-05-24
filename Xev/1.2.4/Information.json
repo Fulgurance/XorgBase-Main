@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "X event monitor",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/app/xev-1.2.4.tar.bz2"],
-  "md5sums": ["e1d7dc1afd3ddb8fab16d6a76f21a258"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

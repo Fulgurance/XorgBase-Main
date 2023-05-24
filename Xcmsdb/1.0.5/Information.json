@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Device Color Characterization utility for X Color Management System",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/app/xcmsdb-1.0.5.tar.bz2"],
-  "md5sums": ["9956d751ea3ae4538c3ebd07f70736a0"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Utility to manage utmp & wtmp entries for X sessions",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/app/sessreg-1.1.2.tar.bz2"],
-  "md5sums": ["92be564d4be7d8aa7b5024057b715210"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

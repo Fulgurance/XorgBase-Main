@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Simple X server performance benchmarker",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/app/x11perf-1.6.1.tar.bz2"],
-  "md5sums": ["e96b56756990c56c24d2d02c2964456b"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

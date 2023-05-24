@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "XKB event daemon",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/app/xkbevd-1.1.4.tar.bz2"],
-  "md5sums": ["c747faf1f78f5a5962419f8bdd066501"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

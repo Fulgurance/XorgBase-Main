@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Utility for modifying keymaps and pointer button mappings in X",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/app/xmodmap-1.0.10.tar.bz2"],
-  "md5sums": ["51f1d30a525e9903280ffeea2744b1f6"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

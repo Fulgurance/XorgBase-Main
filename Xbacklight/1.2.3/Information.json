@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Utility to adjust backlight brightness using RandR extension",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/app/xbacklight-1.2.3.tar.bz2"],
-  "md5sums": ["5b6405973db69c0443be2fba8e1a8ab7"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

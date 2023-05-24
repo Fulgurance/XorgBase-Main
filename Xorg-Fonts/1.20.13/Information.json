@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Xorg fonts",
   "website": "https://www.x.org",
-  "downloadLinks": [],
-  "md5sums": [],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {
@@ -28,8 +25,6 @@
           "options": []
         }
       ],
-      "downloadLinks": [],
-      "md5sums": []
     },
     {
       "name": "Encodings",
@@ -42,8 +37,6 @@
           "options": []
         }
       ],
-      "downloadLinks": [],
-      "md5sums": []
     },
     {
       "name": "Font-Alias",
@@ -56,8 +49,6 @@
           "options": []
         }
       ],
-      "downloadLinks": [],
-      "md5sums": []
     },
     {
       "name": "Font-Adobe-Utopia-Type1",
@@ -70,8 +61,6 @@
           "options": []
         }
       ],
-      "downloadLinks": [],
-      "md5sums": []
     },
     {
       "name": "Font-Bh-Ttf",
@@ -84,8 +73,6 @@
           "options": []
         }
       ],
-      "downloadLinks": [],
-      "md5sums": []
     },
     {
       "name": "Font-Bh-Type1",
@@ -98,8 +85,6 @@
           "options": []
         }
       ],
-      "downloadLinks": [],
-      "md5sums": []
     },
     {
       "name": "Font-Ibm-Type1",
@@ -112,8 +97,6 @@
           "options": []
         }
       ],
-      "downloadLinks": [],
-      "md5sums": []
     },
     {
       "name": "Font-Misc-Ethiopic",
@@ -126,8 +109,6 @@
           "options": []
         }
       ],
-      "downloadLinks": [],
-      "md5sums": []
     },
     {
       "name": "Font-Xfree86-Type1",
@@ -140,8 +121,6 @@
           "options": []
         }
       ],
-      "downloadLinks": [],
-      "md5sums": []
     }
   ]
 }

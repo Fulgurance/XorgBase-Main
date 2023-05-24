@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "X server & client startup utilities",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/app/xinit-1.4.1.tar.bz2"],
-  "md5sums": ["6d506ab2efc17a08e87778654e099d37"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

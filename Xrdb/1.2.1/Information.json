@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "X resource database utility",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/app/xrdb-1.2.1.tar.bz2"],
-  "md5sums": ["85f04a810e2fb6b41ab872b421dce1b1"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

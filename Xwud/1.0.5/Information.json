@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Utility to display an image in XWD format",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/app/xwud-1.0.5.tar.bz2"],
-  "md5sums": ["79972093bb0766fcd0223b2bd6d11932"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

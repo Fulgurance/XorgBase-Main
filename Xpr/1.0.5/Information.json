@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Utility to print an X window dump from xwd",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/app/xpr-1.0.5.tar.bz2"],
-  "md5sums": ["eaac255076ea351fd08d76025788d9f9"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {

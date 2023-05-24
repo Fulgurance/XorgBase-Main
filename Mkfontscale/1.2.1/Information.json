@@ -5,9 +5,6 @@
   "architectures": ["x86_64"],
   "description": "Utilities to create the fonts.scale and fonts.dir index files",
   "website": "https://www.x.org",
-  "downloadLinks": ["https://www.x.org/pub/individual/app/mkfontscale-1.2.1.tar.bz2"],
-  "md5sums": ["215940de158b1a3d8b3f8b442c606e2f"],
-  "patchesLinks": [],
   "installedFiles": [],
   "dependencies": [
     {
