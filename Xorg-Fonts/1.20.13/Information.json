@@ -24,7 +24,7 @@
           "version": "1.3.2",
           "options": []
         }
-      ],
+      ]
     },
     {
       "name": "Encodings",
@@ -36,7 +36,7 @@
           "version": "1.0.5",
           "options": []
         }
-      ],
+      ]
     },
     {
       "name": "Font-Alias",
@@ -48,7 +48,7 @@
           "version": "1.0.4",
           "options": []
         }
-      ],
+      ]
     },
     {
       "name": "Font-Adobe-Utopia-Type1",
@@ -60,7 +60,7 @@
           "version": "1.0.4",
           "options": []
         }
-      ],
+      ]
     },
     {
       "name": "Font-Bh-Ttf",
@@ -72,7 +72,7 @@
           "version": "1.0.3",
           "options": []
         }
-      ],
+      ]
     },
     {
       "name": "Font-Bh-Type1",
@@ -84,7 +84,7 @@
           "version": "1.0.3",
           "options": []
         }
-      ],
+      ]
     },
     {
       "name": "Font-Ibm-Type1",
@@ -96,7 +96,7 @@
           "version": "1.0.3",
           "options": []
         }
-      ],
+      ]
     },
     {
       "name": "Font-Misc-Ethiopic",
@@ -108,7 +108,7 @@
           "version": "1.0.4",
           "options": []
         }
-      ],
+      ]
     },
     {
       "name": "Font-Xfree86-Type1",
@@ -120,7 +120,7 @@
           "version": "1.0.4",
           "options": []
         }
-      ],
+      ]
     }
   ]
 }

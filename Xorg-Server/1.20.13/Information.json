@@ -39,7 +39,7 @@
           "version": "246.10.0",
           "options": ["Linux-Pam","Polkit"]
         }
-      ],
+      ]
     },
     {
       "name": "Wayland",
@@ -51,7 +51,7 @@
           "version": "1.19.0",
           "options": []
         }
-      ],
+      ]
     },
     {
       "name": "Wayland-Protocols",
@@ -63,7 +63,7 @@
           "version": "1.21.0",
           "options": []
         }
-      ],
+      ]
     },
     {
       "name": "Acpid",
@@ -75,7 +75,7 @@
           "version": "2.0.32",
           "options": []
         }
-      ],
+      ]
     }
   ]
 }
