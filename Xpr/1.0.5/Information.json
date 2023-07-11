@@ -2,7 +2,9 @@
   "port": "XorgBase-Main",
   "name": "Xpr",
   "version": "1.0.5",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Utility to print an X window dump from xwd",
   "website": "https://www.x.org",
   "installedFiles": [],

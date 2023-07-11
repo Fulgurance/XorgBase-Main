@@ -2,7 +2,9 @@
   "port": "XorgBase-Main",
   "name": "X11perf",
   "version": "1.6.1",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Simple X server performance benchmarker",
   "website": "https://www.x.org",
   "installedFiles": [],

@@ -2,7 +2,9 @@
   "port": "XorgBase-Main",
   "name": "Xmessage",
   "version": "1.0.5",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Display a message or query in a window",
   "website": "https://www.x.org",
   "installedFiles": [],

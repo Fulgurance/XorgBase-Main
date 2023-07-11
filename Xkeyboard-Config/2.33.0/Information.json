@@ -2,7 +2,9 @@
   "port": "XorgBase-Main",
   "name": "Xkeyboard-Config",
   "version": "2.33.0",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "The non-arch keyboard configuration database for X Window",
   "website": "https://www.x.org",
   "installedFiles": [],

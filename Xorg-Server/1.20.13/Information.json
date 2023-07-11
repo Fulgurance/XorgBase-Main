@@ -2,7 +2,9 @@
   "port": "XorgBase-Main",
   "name": "Xorg-Server",
   "version": "1.20.13",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "X server",
   "website": "https://www.x.org",
   "installedFiles": [],
@@ -15,7 +17,9 @@
     {
       "name": "Xorg-Fonts",
       "version": "1.20.13",
-      "options": ["Font-Util"]
+      "options": [
+        "Font-Util"
+      ]
     },
     {
       "name": "Xkeyboard-Config",
@@ -38,9 +42,13 @@
         {
           "name": "Elogind",
           "version": "246.10.0",
-          "options": ["Linux-Pam","Polkit"]
+          "options": [
+            "Linux-Pam",
+            "Polkit"
+          ]
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Wayland",
@@ -52,7 +60,8 @@
           "version": "1.19.0",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Wayland-Protocols",
@@ -64,7 +73,8 @@
           "version": "1.21.0",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Acpid",
@@ -76,7 +86,8 @@
           "version": "2.0.32",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     }
   ]
 }

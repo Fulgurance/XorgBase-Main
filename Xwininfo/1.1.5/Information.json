@@ -2,7 +2,9 @@
   "port": "XorgBase-Main",
   "name": "Xwininfo",
   "version": "1.1.5",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Utility to print information about windows on an X server",
   "website": "https://www.x.org",
   "installedFiles": [],

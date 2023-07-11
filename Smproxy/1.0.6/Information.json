@@ -2,7 +2,9 @@
   "port": "XorgBase-Main",
   "name": "Smproxy",
   "version": "1.0.6",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Session Manager Proxy",
   "website": "https://www.x.org",
   "installedFiles": [],

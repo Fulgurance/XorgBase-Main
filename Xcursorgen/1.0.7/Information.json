@@ -2,7 +2,9 @@
   "port": "XorgBase-Main",
   "name": "Xcursorgen",
   "version": "1.0.7",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Prepares X11 cursor sets for use with libXcursor",
   "website": "https://www.x.org",
   "installedFiles": [],

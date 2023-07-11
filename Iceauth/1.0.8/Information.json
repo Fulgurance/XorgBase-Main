@@ -2,7 +2,9 @@
   "port": "XorgBase-Main",
   "name": "Iceauth",
   "version": "1.0.8",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "LibICE authority file utility",
   "website": "https://www.x.org",
   "installedFiles": [],

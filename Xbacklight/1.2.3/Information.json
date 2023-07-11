@@ -2,7 +2,9 @@
   "port": "XorgBase-Main",
   "name": "Xbacklight",
   "version": "1.2.3",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Utility to adjust backlight brightness using RandR extension",
   "website": "https://www.x.org",
   "installedFiles": [],

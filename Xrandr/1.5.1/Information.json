@@ -2,7 +2,9 @@
   "port": "XorgBase-Main",
   "name": "Xrandr",
   "version": "1.5.1",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Command line interface to X11 Resize Rotate and Reflect extension",
   "website": "https://www.x.org",
   "installedFiles": [],

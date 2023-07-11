@@ -2,7 +2,9 @@
   "port": "XorgBase-Main",
   "name": "Util-Macros",
   "version": "1.19.3",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "GNU autoconf macros shared across X.Org projects",
   "website": "https://www.x.org",
   "installedFiles": [],

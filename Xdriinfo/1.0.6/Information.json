@@ -2,7 +2,9 @@
   "port": "XorgBase-Main",
   "name": "Xdriinfo",
   "version": "1.0.6",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Utility to query configuration information of X11 DRI drivers",
   "website": "https://www.x.org",
   "installedFiles": [],

@@ -2,7 +2,9 @@
   "port": "XorgBase-Main",
   "name": "Xdpyinfo",
   "version": "1.3.2",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Display information utility for X",
   "website": "https://www.x.org",
   "installedFiles": [],

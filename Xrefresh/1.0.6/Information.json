@@ -2,7 +2,9 @@
   "port": "XorgBase-Main",
   "name": "Xrefresh",
   "version": "1.0.6",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Utility to refresh all or part of an X screen",
   "website": "https://www.x.org",
   "installedFiles": [],

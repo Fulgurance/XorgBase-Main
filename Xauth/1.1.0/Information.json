@@ -2,7 +2,9 @@
   "port": "XorgBase-Main",
   "name": "Xauth",
   "version": "1.1.0",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "X authority file utility",
   "website": "https://www.x.org",
   "installedFiles": [],

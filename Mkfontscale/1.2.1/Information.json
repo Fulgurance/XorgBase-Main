@@ -2,7 +2,9 @@
   "port": "XorgBase-Main",
   "name": "Mkfontscale",
   "version": "1.2.1",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Utilities to create the fonts.scale and fonts.dir index files",
   "website": "https://www.x.org",
   "installedFiles": [],

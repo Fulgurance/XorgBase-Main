@@ -2,7 +2,9 @@
   "port": "XorgBase-Main",
   "name": "Xmodmap",
   "version": "1.0.10",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Utility for modifying keymaps and pointer button mappings in X",
   "website": "https://www.x.org",
   "installedFiles": [],

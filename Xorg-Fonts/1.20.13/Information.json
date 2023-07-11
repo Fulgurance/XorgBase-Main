@@ -2,7 +2,9 @@
   "port": "XorgBase-Main",
   "name": "Xorg-Fonts",
   "version": "1.20.13",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Xorg fonts",
   "website": "https://www.x.org",
   "installedFiles": [],
@@ -25,7 +27,8 @@
           "version": "1.3.2",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Encodings",
@@ -37,7 +40,8 @@
           "version": "1.0.5",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Font-Alias",
@@ -49,7 +53,8 @@
           "version": "1.0.4",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Font-Adobe-Utopia-Type1",
@@ -61,7 +66,8 @@
           "version": "1.0.4",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Font-Bh-Ttf",
@@ -73,7 +79,8 @@
           "version": "1.0.3",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Font-Bh-Type1",
@@ -85,7 +92,8 @@
           "version": "1.0.3",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Font-Ibm-Type1",
@@ -97,7 +105,8 @@
           "version": "1.0.3",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Font-Misc-Ethiopic",
@@ -109,7 +118,8 @@
           "version": "1.0.4",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     },
     {
       "name": "Font-Xfree86-Type1",
@@ -121,7 +131,8 @@
           "version": "1.0.4",
           "options": []
         }
-      ]
+      ],
+      "kernelDependencies": []
     }
   ]
 }

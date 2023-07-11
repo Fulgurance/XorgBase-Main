@@ -2,7 +2,9 @@
   "port": "XorgBase-Main",
   "name": "Xlsclients",
   "version": "1.1.4",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Utility to list client applications running on a display",
   "website": "https://www.x.org",
   "installedFiles": [],

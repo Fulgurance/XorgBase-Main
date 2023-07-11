@@ -2,7 +2,9 @@
   "port": "XorgBase-Main",
   "name": "Xkbutils",
   "version": "1.0.4",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Collection of small XKB utilities",
   "website": "https://www.x.org",
   "installedFiles": [],

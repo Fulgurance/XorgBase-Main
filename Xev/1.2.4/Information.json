@@ -2,7 +2,9 @@
   "port": "XorgBase-Main",
   "name": "Xev",
   "version": "1.2.4",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "X event monitor",
   "website": "https://www.x.org",
   "installedFiles": [],

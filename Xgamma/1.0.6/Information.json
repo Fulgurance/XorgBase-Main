@@ -2,7 +2,9 @@
   "port": "XorgBase-Main",
   "name": "Xgamma",
   "version": "1.0.6",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Utility to query and alter the gamma correction of a monitor",
   "website": "https://www.x.org",
   "installedFiles": [],

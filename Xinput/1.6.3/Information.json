@@ -2,7 +2,9 @@
   "port": "XorgBase-Main",
   "name": "Xinput",
   "version": "1.6.3",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "Utility to configure and test XInput devices",
   "website": "https://www.x.org",
   "installedFiles": [],

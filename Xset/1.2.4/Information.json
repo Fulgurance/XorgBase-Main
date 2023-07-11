@@ -2,7 +2,9 @@
   "port": "XorgBase-Main",
   "name": "Xset",
   "version": "1.2.4",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "User preference utility for X servers",
   "website": "https://www.x.org",
   "installedFiles": [],

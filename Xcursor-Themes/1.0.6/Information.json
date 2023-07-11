@@ -2,7 +2,9 @@
   "port": "XorgBase-Main",
   "name": "Xcursor-Themes",
   "version": "1.0.6",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "X.Org cursor themes",
   "website": "https://www.x.org",
   "installedFiles": [],

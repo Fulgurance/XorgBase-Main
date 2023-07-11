@@ -2,7 +2,9 @@
   "port": "XorgBase-Main",
   "name": "Xkbcomp",
   "version": "1.4.5",
-  "architectures": ["x86_64"],
+  "architectures": [
+    "x86_64"
+  ],
   "description": "XKB keyboard description compiler",
   "website": "https://www.x.org",
   "installedFiles": [],
