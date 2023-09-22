@@ -18,6 +18,11 @@
       "name": "Libfontenc",
       "version": "1.1.4",
       "options": []
+    },
+    {
+      "name": "FreeType",
+      "version": "2.11.0",
+      "options": []
     }
   ],
   "kernelDependencies": [],
