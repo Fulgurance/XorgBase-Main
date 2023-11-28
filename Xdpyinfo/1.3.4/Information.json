@@ -1,0 +1,46 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Xdpyinfo",
+  "version": "1.3.4",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "Display information utility for X",
+  "website": "https://www.x.org",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "SystemBase",
+      "version": "0.2.0",
+      "options": []
+    },
+    {
+      "name": "LibXext",
+      "version": "1.3.5",
+      "options": []
+    },
+    {
+      "name": "LibX11",
+      "version": "1.8.6",
+      "options": []
+    },
+    {
+      "name": "LibXtst",
+      "version": "1.2.4",
+      "options": []
+    },
+    {
+      "name": "Libxcb",
+      "version": "1.16.0",
+      "options": []
+    },
+    {
+      "name": "Xorgproto",
+      "version": "0.0.0-20230201",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueOptions": []
+}

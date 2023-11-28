@@ -1,0 +1,36 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Xev",
+  "version": "1.2.5",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "X event monitor",
+  "website": "https://www.x.org",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "SystemBase",
+      "version": "0.2.0",
+      "options": []
+    },
+    {
+      "name": "Xrandr",
+      "version": "1.5.2",
+      "options": []
+    },
+    {
+      "name": "LibX11",
+      "version": "1.8.6",
+      "options": []
+    },
+    {
+      "name": "Xorgproto",
+      "version": "0.0.0-20230201",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueOptions": []
+}

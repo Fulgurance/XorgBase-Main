@@ -1,0 +1,36 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Xvinfo",
+  "version": "1.1.5",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "Utility to print out X-Video extension adaptor information",
+  "website": "https://www.x.org",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "SystemBase",
+      "version": "0.2.0",
+      "options": []
+    },
+    {
+      "name": "LibXv",
+      "version": "1.0.12",
+      "options": []
+    },
+    {
+      "name": "LibX11",
+      "version": "1.8.6",
+      "options": []
+    },
+    {
+      "name": "Xorgproto",
+      "version": "0.0.0-20230201",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueOptions": []
+}

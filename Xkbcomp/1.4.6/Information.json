@@ -1,0 +1,36 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Xkbcomp",
+  "version": "1.4.6",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "XKB keyboard description compiler",
+  "website": "https://www.x.org",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "SystemBase",
+      "version": "0.2.0",
+      "options": []
+    },
+    {
+      "name": "LibX11",
+      "version": "1.8.6",
+      "options": []
+    },
+    {
+      "name": "Libxkbfile",
+      "version": "1.1.2",
+      "options": []
+    },
+    {
+      "name": "Xorgproto",
+      "version": "0.0.0-20230201",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueOptions": []
+}

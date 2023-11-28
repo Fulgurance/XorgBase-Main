@@ -1,0 +1,21 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Xinit",
+  "version": "1.4.2",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "X server & client startup utilities",
+  "website": "https://www.x.org",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Xorg-Libraries",
+      "version": "21.1.8",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueOptions": []
+}

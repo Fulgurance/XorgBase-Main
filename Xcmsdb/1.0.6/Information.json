@@ -1,0 +1,26 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Xcmsdb",
+  "version": "1.0.6",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "Device Color Characterization utility for X Color Management System",
+  "website": "https://www.x.org",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "SystemBase",
+      "version": "0.2.0",
+      "options": []
+    },
+    {
+      "name": "LibX11",
+      "version": "1.8.6",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueOptions": []
+}

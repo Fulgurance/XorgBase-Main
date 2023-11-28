@@ -1,0 +1,21 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Util-Macros",
+  "version": "1.20.0",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "GNU autoconf macros shared across X.Org projects",
+  "website": "https://www.x.org",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "SystemBase",
+      "version": "0.2.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueOptions": []
+}

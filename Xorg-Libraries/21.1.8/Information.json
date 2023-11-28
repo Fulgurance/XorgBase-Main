@@ -1,0 +1,181 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Xorg-Libraries",
+  "version": "21.1.8",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "Xorg libraries",
+  "website": "https://www.x.org",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "Fontconfig",
+      "version": "2.14.2",
+      "options": []
+    },
+    {
+      "name": "Libxcb",
+      "version": "1.16.0",
+      "options": []
+    },
+    {
+      "name": "Xtrans",
+      "version": "1.5.0",
+      "options": []
+    },
+    {
+      "name": "LibX11",
+      "version": "1.8.6",
+      "options": []
+    },
+    {
+      "name": "LibXext",
+      "version": "1.3.5",
+      "options": []
+    },
+    {
+      "name": "LibFs",
+      "version": "1.0.9",
+      "options": []
+    },
+    {
+      "name": "LibIce",
+      "version": "1.1.1",
+      "options": []
+    },
+    {
+      "name": "LibSm",
+      "version": "1.2.4",
+      "options": []
+    },
+    {
+      "name": "LibXscrnSaver",
+      "version": "1.2.4",
+      "options": []
+    },
+    {
+      "name": "LibXt",
+      "version": "1.3.0",
+      "options": []
+    },
+    {
+      "name": "LibXmu",
+      "version": "1.1.4",
+      "options": []
+    },
+    {
+      "name": "LibXpm",
+      "version": "3.5.16",
+      "options": []
+    },
+    {
+      "name": "LibXaw",
+      "version": "1.0.15",
+      "options": []
+    },
+    {
+      "name": "LibXfixes",
+      "version": "6.0.1",
+      "options": []
+    },
+    {
+      "name": "LibXcomposite",
+      "version": "0.4.6",
+      "options": []
+    },
+    {
+      "name": "LibXrender",
+      "version": "0.9.11",
+      "options": []
+    },
+    {
+      "name": "LibXcursor",
+      "version": "1.2.1",
+      "options": []
+    },
+    {
+      "name": "LibXdamage",
+      "version": "1.1.6",
+      "options": []
+    },
+    {
+      "name": "Libfontenc",
+      "version": "1.1.7",
+      "options": []
+    },
+    {
+      "name": "LibXfont2",
+      "version": "2.0.6",
+      "options": []
+    },
+    {
+      "name": "LibXft",
+      "version": "2.3.8",
+      "options": []
+    },
+    {
+      "name": "LibXi",
+      "version": "1.8.1",
+      "options": []
+    },
+    {
+      "name": "LibXinerama",
+      "version": "1.1.5",
+      "options": []
+    },
+    {
+      "name": "LibXrandr",
+      "version": "1.5.3",
+      "options": []
+    },
+    {
+      "name": "LibXres",
+      "version": "1.2.2",
+      "options": []
+    },
+    {
+      "name": "LibXtst",
+      "version": "1.2.4",
+      "options": []
+    },
+    {
+      "name": "LibXv",
+      "version": "1.0.12",
+      "options": []
+    },
+    {
+      "name": "LibXvMc",
+      "version": "1.0.13",
+      "options": []
+    },
+    {
+      "name": "LibXxf86dga",
+      "version": "1.1.6",
+      "options": []
+    },
+    {
+      "name": "LibXxf86vm",
+      "version": "1.1.5",
+      "options": []
+    },
+    {
+      "name": "Libpciaccess",
+      "version": "0.17.0",
+      "options": []
+    },
+    {
+      "name": "Libxkbfile",
+      "version": "1.1.2",
+      "options": []
+    },
+    {
+      "name": "Libxshmfence",
+      "version": "1.3.2",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueOptions": []
+}

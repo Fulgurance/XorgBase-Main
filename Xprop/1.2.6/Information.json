@@ -1,0 +1,31 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Xprop",
+  "version": "1.2.6",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "Utility to print an X window dump from xwd",
+  "website": "https://www.x.org",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "SystemBase",
+      "version": "0.2.0",
+      "options": []
+    },
+    {
+      "name": "LibX11",
+      "version": "1.8.6",
+      "options": []
+    },
+    {
+      "name": "Xorgproto",
+      "version": "0.0.0-20230201",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueOptions": []
+}

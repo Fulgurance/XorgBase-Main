@@ -1,0 +1,21 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Xkeyboard-Config",
+  "version": "2.39.0",
+  "architectures": [
+    "x86_64"
+  ],
+  "description": "The non-arch keyboard configuration database for X Window",
+  "website": "https://www.x.org",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "name": "SystemBase",
+      "version": "0.2.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueOptions": []
+}
