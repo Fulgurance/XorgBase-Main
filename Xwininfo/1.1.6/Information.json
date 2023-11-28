@@ -1,7 +1,7 @@
 {
   "port": "XorgBase-Main",
   "name": "Xwininfo",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "architectures": [
     "x86_64"
   ],
