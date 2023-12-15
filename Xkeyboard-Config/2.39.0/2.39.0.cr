@@ -1,7 +1,5 @@
 class Target < ISM::Software
 
-    class Target < ISM::Software
-
     def prepare
         @buildDirectory = true
         super
