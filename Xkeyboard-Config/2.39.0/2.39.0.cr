@@ -15,7 +15,6 @@ class Target < ISM::Software
                             "--prefix=/usr",
                             "--sysconfdir=/etc",
                             "--localstatedir=/var",
-                            "--disable-static",
                             "--buildtype=release"],
                             mainWorkDirectoryPath)
     end
