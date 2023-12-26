@@ -90,6 +90,19 @@
       "kernelDependencies": []
     },
     {
+      "name": "Libtirpc",
+      "description": "Enable libtirpc support",
+      "active": false,
+      "dependencies": [
+        {
+          "name": "Libtirpc",
+          "version": ">=1.3.3",
+          "options": []
+        }
+      ],
+      "kernelDependencies": []
+    },
+    {
       "name": "Wayland",
       "description": "Enable wayland support for Xwayland",
       "active": false,

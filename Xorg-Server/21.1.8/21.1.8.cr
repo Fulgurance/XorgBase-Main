@@ -4,7 +4,11 @@ class Target < ISM::Software
         @buildDirectory = true
         super
 
-        runMesonCommand(["setup",@buildDirectoryNames["MainBuild"],"-Dxdmcp=#{option("LibXdmcp") ? "true" : "false"}"],mainWorkDirectoryPath)
+        runMesonCommand([   "setup",
+                            @buildDirectoryNames["MainBuild"],
+                            "-Dxdmcp=#{option("LibXdmcp") ? "true" : "false"}",
+                            "-Dsecure-rpc=#{option("Libtirpc") ? "true" : "false"}"],
+                            path: mainWorkDirectoryPath)
     end
 
     def configure
@@ -19,8 +23,9 @@ class Target < ISM::Software
                             "-Dsuid_wrapper=true",
                             "-Dglamor=true",
                             "-Dxdmcp=#{option("LibXdmcp") ? "true" : "false"}",
+                            "-Dsecure-rpc=#{option("Libtirpc") ? "true" : "false"}",
                             "-Dxkb_output_dir=/var/lib/xkb"],
-                            mainWorkDirectoryPath)
+                            path: mainWorkDirectoryPath)
     end
 
     def build
