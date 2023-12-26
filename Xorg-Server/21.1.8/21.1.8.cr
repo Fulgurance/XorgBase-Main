@@ -18,7 +18,6 @@ class Target < ISM::Software
                             @buildDirectoryNames["MainBuild"],
                             "--prefix=/usr",
                             "--localstatedir=/var",
-                            "--disable-static",
                             "-Dsuid_wrapper=true",
                             "-Dglamor=true",
                             "-Dxdmcp=#{option("LibXdmcp") ? "true" : "false"}",
