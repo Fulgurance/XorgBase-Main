@@ -18,6 +18,7 @@ class Target < ISM::Software
                             "--disable-static",
                             "-Dsuid_wrapper=true",
                             "-Dglamor=true",
+                            "-Dxdmcp=#{option("LibXdmcp") ? "true" : "false"}",
                             "-Dxkb_output_dir=/var/lib/xkb"],
                             mainWorkDirectoryPath)
     end
