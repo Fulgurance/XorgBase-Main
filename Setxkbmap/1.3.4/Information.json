@@ -23,6 +23,11 @@
       "name": "LibX11",
       "version": "1.8.6",
       "options": []
+    },
+    {
+      "name": "LibXrandr",
+      "version": "1.5.3",
+      "options": []
     }
   ],
   "kernelDependencies": [],
