@@ -15,7 +15,7 @@ class Target < ISM::Software
                             "--prefix=/usr",
                             "--localstatedir=/var",
                             "-Dsuid_wrapper=true",
-                            "-Dglamor=true",
+                            "-Dglamor=#{option("Libepoxy") ? "true" : "false"}",
                             "-Dxdmcp=#{option("LibXdmcp") ? "true" : "false"}",
                             "-Dsecure-rpc=#{option("Libtirpc") ? "true" : "false"}",
                             "-Dxkb_output_dir=/var/lib/xkb"],
