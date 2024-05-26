@@ -2,9 +2,7 @@
   "port": "XorgBase-Main",
   "name": "Xorg-Applications",
   "version": "21.1.8",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Xorg applications",
   "website": "https://www.x.org",
   "installedFiles": [],
@@ -160,6 +158,7 @@
       "options": []
     },
     {
+      "port": "XorgBase-Main",
       "name": "Xlsatoms",
       "version": ">=1.1.4",
       "options": []
