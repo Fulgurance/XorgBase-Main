@@ -2,26 +2,27 @@
   "port": "XorgBase-Main",
   "name": "Xset",
   "version": "1.2.5",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "User preference utility for X servers",
   "website": "https://www.x.org",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "SystemBase-Main",
       "name": "SystemBase",
-      "version": "0.2.0",
+      "version": ">=0.2.0",
       "options": []
     },
     {
+      "port": "GraphicsLibraries-Main",
       "name": "Xorgproto",
-      "version": "0.0.0-20230201",
+      "version": ">=0.0.0-20230201",
       "options": []
     },
     {
+      "port": "GraphicsLibraries-Main",
       "name": "LibXmu",
-      "version": "1.1.4",
+      "version": ">=1.1.4",
       "options": []
     }
   ],

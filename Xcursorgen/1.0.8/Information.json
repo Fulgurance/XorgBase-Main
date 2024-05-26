@@ -2,26 +2,27 @@
   "port": "XorgBase-Main",
   "name": "Xcursorgen",
   "version": "1.0.8",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Prepares X11 cursor sets for use with libXcursor",
   "website": "https://www.x.org",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "SystemBase-Main",
       "name": "SystemBase",
-      "version": "0.2.0",
+      "version": ">=0.2.0",
       "options": []
     },
     {
+      "port": "GraphicsLibraries-Main",
       "name": "LibX11",
-      "version": "1.8.6",
+      "version": ">=1.8.6",
       "options": []
     },
     {
+      "port": "GraphicsLibraries-Main",
       "name": "LibXcursor",
-      "version": "1.2.1",
+      "version": ">=1.2.1",
       "options": []
     }
   ],

@@ -2,26 +2,27 @@
   "port": "XorgBase-Main",
   "name": "Mkfontscale",
   "version": "1.2.2",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Utilities to create the fonts.scale and fonts.dir index files",
   "website": "https://www.x.org",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "SystemBase-Main",
       "name": "SystemBase",
-      "version": "0.2.0",
+      "version": ">=0.2.0",
       "options": []
     },
     {
+      "port": "GraphicsLibraries-Main",
       "name": "Libfontenc",
-      "version": "1.1.7",
+      "version": ">=1.1.7",
       "options": []
     },
     {
+      "port": "GraphicsLibraries-Main",
       "name": "FreeType",
-      "version": "2.13.1",
+      "version": ">=2.13.1",
       "options": []
     }
   ],

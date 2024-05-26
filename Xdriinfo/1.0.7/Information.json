@@ -2,16 +2,15 @@
   "port": "XorgBase-Main",
   "name": "Xdriinfo",
   "version": "1.0.7",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Utility to query configuration information of X11 DRI drivers",
   "website": "https://www.x.org",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "GraphicsLibraries-Main",
       "name": "Mesa",
-      "version": "23.1.6",
+      "version": ">=23.1.6",
       "options": []
     }
   ],

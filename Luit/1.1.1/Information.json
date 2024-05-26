@@ -2,19 +2,19 @@
   "port": "XorgBase-Main",
   "name": "Luit",
   "version": "1.1.1",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Filter that can be run between an arbitrary application and a UTF-8 terminal emulator",
   "website": "https://www.x.org",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "SystemBase-Main",
       "name": "SystemBase",
       "version": ">=0.2.0",
       "options": []
     },
     {
+      "port": "GraphicsLibraries-Main",
       "name": "Libfontenc",
       "version": ">=1.1.4",
       "options": []

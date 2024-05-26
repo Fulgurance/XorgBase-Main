@@ -2,31 +2,32 @@
   "port": "XorgBase-Main",
   "name": "Xpr",
   "version": "1.1.0",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Utility to print an X window dump from xwd",
   "website": "https://www.x.org",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "SystemBase-Main",
       "name": "SystemBase",
-      "version": "0.2.0",
+      "version": ">=0.2.0",
       "options": []
     },
     {
+      "port": "GraphicsLibraries-Main",
       "name": "LibXmu",
-      "version": "1.1.4",
+      "version": ">=1.1.4",
       "options": []
     },
     {
       "name": "LibX11",
-      "version": "1.8.6",
+      "version": ">=1.8.6",
       "options": []
     },
     {
+      "port": "GraphicsLibraries-Main",
       "name": "Xorgproto",
-      "version": "0.0.0-20230201",
+      "version": ">=0.0.0-20230201",
       "options": []
     }
   ],

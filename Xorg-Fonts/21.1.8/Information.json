@@ -2,16 +2,15 @@
   "port": "XorgBase-Main",
   "name": "Xorg-Fonts",
   "version": "21.1.8",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Xorg fonts",
   "website": "https://www.x.org",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "XorgBase-Main",
       "name": "Xcursor-Themes",
-      "version": "1.0.7",
+      "version": ">=1.0.7",
       "options": []
     }
   ],
@@ -23,8 +22,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "XorgBase-Main",
           "name": "Font-Util",
-          "version": "1.4.0",
+          "version": ">=1.4.0",
           "options": []
         }
       ],
@@ -36,8 +36,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "Fonts-Main",
           "name": "Encoding",
-          "version": "1.0.7",
+          "version": ">=1.0.7",
           "options": []
         }
       ],
@@ -49,8 +50,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "Fonts-Main",
           "name": "Font-Alias",
-          "version": "1.0.5",
+          "version": ">=1.0.5",
           "options": []
         }
       ],
@@ -62,8 +64,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "Fonts-Main",
           "name": "Font-Adobe-Utopia-Type1",
-          "version": "1.0.5",
+          "version": ">=1.0.5",
           "options": []
         }
       ],
@@ -75,8 +78,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "Fonts-Main",
           "name": "Font-Bh-Ttf",
-          "version": "1.0.4",
+          "version": ">=1.0.4",
           "options": []
         }
       ],
@@ -88,8 +92,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "Fonts-Main",
           "name": "Font-Bh-Type1",
-          "version": "1.0.4",
+          "version": ">=1.0.4",
           "options": []
         }
       ],
@@ -101,8 +106,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "Fonts-Main",
           "name": "Font-Ibm-Type1",
-          "version": "1.0.4",
+          "version": ">=1.0.4",
           "options": []
         }
       ],
@@ -114,8 +120,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "Fonts-Main",
           "name": "Font-Misc-Ethiopic",
-          "version": "1.0.5",
+          "version": ">=1.0.5",
           "options": []
         }
       ],
@@ -127,8 +134,9 @@
       "active": false,
       "dependencies": [
         {
+          "port": "Fonts-Main",
           "name": "Font-Xfree86-Type1",
-          "version": "1.0.5",
+          "version": ">=1.0.5",
           "options": []
         }
       ],

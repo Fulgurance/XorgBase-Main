@@ -2,21 +2,21 @@
   "port": "XorgBase-Main",
   "name": "Xmessage",
   "version": "1.0.6",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Display a message or query in a window",
   "website": "https://www.x.org",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "SystemBase-Main",
       "name": "SystemBase",
-      "version": "0.2.0",
+      "version": ">=0.2.0",
       "options": []
     },
     {
+      "port": "GraphicsLibraries-Main",
       "name": "LibXaw",
-      "version": "1.0.15",
+      "version": ">=1.0.15",
       "options": []
     }
   ],

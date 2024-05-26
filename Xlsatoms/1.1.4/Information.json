@@ -2,21 +2,21 @@
   "port": "XorgBase-Main",
   "name": "Xlsatoms",
   "version": "1.1.4",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Utility to list interned atoms defined on X server",
   "website": "https://www.x.org",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "SystemBase-Main",
       "name": "SystemBase",
-      "version": "0.2.0",
+      "version": ">=0.2.0",
       "options": []
     },
     {
+      "port": "GraphicsLibraries-Main",
       "name": "Libxcb",
-      "version": "1.16.0",
+      "version": ">=1.16.0",
       "options": []
     }
   ],

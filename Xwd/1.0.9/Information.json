@@ -2,31 +2,33 @@
   "port": "XorgBase-Main",
   "name": "Xwd",
   "version": "1.0.9",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Utility to dump an image of an X window in XWD format",
   "website": "https://www.x.org",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "SystemBase-Main",
       "name": "SystemBase",
-      "version": "0.2.0",
+      "version": ">=0.2.0",
       "options": []
     },
     {
+      "port": "GraphicsLibraries-Main",
       "name": "LibX11",
-      "version": "1.8.6",
+      "version": ">=1.8.6",
       "options": []
     },
     {
+      "port": "GraphicsLibraries-Main",
       "name": "Xorgproto",
-      "version": "0.0.0-20230201",
+      "version": ">=0.0.0-20230201",
       "options": []
     },
     {
+      "port": "GraphicsLibraries-Main",
       "name": "Libxkbfile",
-      "version": "1.1.2",
+      "version": ">=1.1.2",
       "options": []
     }
   ],

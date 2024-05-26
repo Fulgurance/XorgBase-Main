@@ -2,36 +2,39 @@
   "port": "XorgBase-Main",
   "name": "Xrandr",
   "version": "1.5.2",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "Command line interface to X11 Resize Rotate and Reflect extension",
   "website": "https://www.x.org",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "SystemBase-Main",
       "name": "SystemBase",
-      "version": "0.2.0",
+      "version": ">=0.2.0",
       "options": []
     },
     {
+      "port": "GraphicsLibraries-Main",
       "name": "LibXrandr",
-      "version": "1.5.3",
+      "version": ">=1.5.3",
       "options": []
     },
     {
+      "port": "GraphicsLibraries-Main",
       "name": "LibXrender",
-      "version": "0.9.11",
+      "version": ">=0.9.11",
       "options": []
     },
     {
+      "port": "GraphicsLibraries-Main",
       "name": "LibX11",
-      "version": "1.8.6",
+      "version": ">=1.8.6",
       "options": []
     },
     {
+      "port": "GraphicsLibraries-Main",
       "name": "Xorgproto",
-      "version": "0.0.0-20230201",
+      "version": ">=0.0.0-20230201",
       "options": []
     }
   ],

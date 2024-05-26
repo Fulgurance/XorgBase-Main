@@ -2,26 +2,27 @@
   "port": "XorgBase-Main",
   "name": "Iceauth",
   "version": "1.0.9",
-  "architectures": [
-    "x86_64"
-  ],
+  "architectures": ["x86_64"],
   "description": "LibICE authority file utility",
   "website": "https://www.x.org",
   "installedFiles": [],
   "dependencies": [
     {
+      "port": "SystemBase-Main",
       "name": "SystemBase",
-      "version": "0.2.0",
+      "version": ">=0.2.0",
       "options": []
     },
     {
+      "port": "GraphicsLibraries-Main",
       "name": "Xorgproto",
-      "version": "0.0.0-20230201",
+      "version": ">=0.0.0-20230201",
       "options": []
     },
     {
+      "port": "GraphicsLibraries-Main",
       "name": "LibIce",
-      "version": "1.1.1",
+      "version": ">=1.1.1",
       "options": []
     }
   ],
