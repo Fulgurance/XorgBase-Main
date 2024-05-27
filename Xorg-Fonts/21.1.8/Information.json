@@ -22,7 +22,7 @@
       "active": false,
       "dependencies": [
         {
-          "port": "XorgBase-Main",
+          "port": "Fonts-Main",
           "name": "Font-Util",
           "version": ">=1.4.0",
           "options": []
