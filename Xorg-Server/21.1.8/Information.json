@@ -248,5 +248,5 @@
   "uniqueDependencies": [],
   "uniqueOptions": [],
   "selectedDependencies": [],
-  "allowCodependencies": []
+  "allowCodependencies": ["@InputDrivers-Main:Xf86-Input-Libinput"]
 }
