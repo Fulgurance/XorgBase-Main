@@ -32,20 +32,20 @@ class Target < ISM::Software
 
         runNinjaCommand(["install"],buildDirectoryPath,{"DESTDIR" => "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}"})
 
-        makeDirectory("#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}etc/X11/xorg.conf.d")
-        makeDirectory("#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}etc/sysconfig")
+        makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}etc/X11/xorg.conf.d")
+        makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}etc/sysconfig")
 
         if File.exists?("#{Ism.settings.rootPath}etc/sysconfig/createfiles")
-            copyFile("#{Ism.settings.rootPath}etc/sysconfig/createfiles","#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}etc/sysconfig/createfiles")
+            copyFile("#{Ism.settings.rootPath}etc/sysconfig/createfiles","#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}etc/sysconfig/createfiles")
         else
-            generateEmptyFile("#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}etc/sysconfig/createfiles")
+            generateEmptyFile("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}etc/sysconfig/createfiles")
         end
 
         createFilesData = <<-CODE
         /tmp/.ICE-unix dir 1777 root root
         /tmp/.X11-unix dir 1777 root root
         CODE
-        fileUpdateContent("#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}etc/sysconfig/createfiles",createFilesData)
+        fileUpdateContent("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}etc/sysconfig/createfiles",createFilesData)
     end
 
 end

@@ -22,7 +22,7 @@ class Target < ISM::Software
     end
 
     def prepareInstallation
-        makeDirectory("#{builtSoftwareDirectoryPath(false)}#{Ism.settings.rootPath}usr/share/fonts")
+        makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share/fonts")
     end
 
     def install

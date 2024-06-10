@@ -3,7 +3,7 @@ class Target < ISM::Software
     def prepare
         super
 
-        fileReplaceText("#{buildDirectoryPath(false)}configure","OS_CFLAGS=\"-D_XOPEN_SOURCE=500\"","OS_CFLAGS=\"-D_XOPEN_SOURCE=600\"")
+        fileReplaceText("#{buildDirectoryPath}configure","OS_CFLAGS=\"-D_XOPEN_SOURCE=500\"","OS_CFLAGS=\"-D_XOPEN_SOURCE=600\"")
     end
     
     def configure
