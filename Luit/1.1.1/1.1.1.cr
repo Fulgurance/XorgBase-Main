@@ -3,16 +3,18 @@ class Target < ISM::Software
     def prepare
         super
 
-        fileReplaceText("#{buildDirectoryPath}configure","OS_CFLAGS=\"-D_XOPEN_SOURCE=500\"","OS_CFLAGS=\"-D_XOPEN_SOURCE=600\"")
+        fileReplaceText(path:       "#{buildDirectoryPath}configure",
+                        text:       "OS_CFLAGS=\"-D_XOPEN_SOURCE=500\"",
+                        newText:    "OS_CFLAGS=\"-D_XOPEN_SOURCE=600\"")
     end
     
     def configure
         super
 
-        configureSource([   "--prefix=/usr",
-                            "--sysconfdir=/etc",
-                            "--localstatedir=/var"],
-                            buildDirectoryPath)
+        configureSource(arguments:  "--prefix=/usr      \
+                                    --sysconfdir=/etc   \
+                                    --localstatedir=/var",
+                        path:       buildDirectoryPath)
     end
     
     def build
@@ -24,7 +26,8 @@ class Target < ISM::Software
     def prepareInstallation
         super
 
-        makeSource(["DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}","install"],buildDirectoryPath)
+        makeSource( arguments:  "DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath} install",
+                    path:       buildDirectoryPath)
     end
 
 end
