@@ -14,7 +14,7 @@ class Target < ISM::Software
                                     --prefix=/usr                           \
                                     --sysconfdir=/etc                       \
                                     --localstatedir=/var                    \
-                                    --buildtype=release"],
+                                    --buildtype=release",
                         path:       mainWorkDirectoryPath)
     end
 
