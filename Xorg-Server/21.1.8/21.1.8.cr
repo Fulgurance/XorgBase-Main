@@ -17,7 +17,7 @@ class Target < ISM::Software
                                     -Dglamor=#{option("Libepoxy") ? "true" : "false"}       \
                                     -Dxdmcp=#{option("LibXdmcp") ? "true" : "false"}        \
                                     -Dsecure-rpc=#{option("Libtirpc") ? "true" : "false"}   \
-                                    -Dxkb_output_dir=/var/lib/xkb"],
+                                    -Dxkb_output_dir=/var/lib/xkb",
                         path:       mainWorkDirectoryPath)
     end
 
