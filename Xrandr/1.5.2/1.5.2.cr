@@ -21,12 +21,8 @@ class Target < ISM::Software
 
         makeSource( arguments:  "DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath} install",
                     path:       buildDirectoryPath)
-    end
 
-    def clean
-        super
-
-        deleteFile("#{Ism.settings.rootPath}usr/bin/xkeystone")
+        deleteFile("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/usr/bin/xkeystone")
     end
 
 end
