@@ -31,11 +31,11 @@ class Target < ISM::Software
         runChmodCommand("0755 /usr/share/fonts")
 
         makeLink(   target: "/usr/share/fonts/X11/OTF",
-                    path:   "#{Ism.settings.rootPath}usr/share/fonts/X11-OTF",
+                    path:   "/usr/share/fonts/X11-OTF",
                     type:   :symbolicLinkByOverwrite)
 
         makeLink(   target: "/usr/share/fonts/X11/TTF",
-                    path:   "#{Ism.settings.rootPath}usr/share/fonts/X11-TTF",
+                    path:   "/usr/share/fonts/X11-TTF",
                     type:   :symbolicLinkByOverwrite)
 
         Ism.addInstalledSoftware(@information)
