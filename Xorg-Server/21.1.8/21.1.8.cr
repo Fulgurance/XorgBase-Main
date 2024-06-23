@@ -38,7 +38,7 @@ class Target < ISM::Software
         makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}etc/sysconfig")
 
         if File.exists?("#{Ism.settings.rootPath}etc/sysconfig/createfiles")
-            copyFile(   "#{Ism.settings.rootPath}etc/sysconfig/createfiles",
+            copyFile(   "/etc/sysconfig/createfiles",
                         "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}etc/sysconfig/createfiles")
         else
             generateEmptyFile("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}etc/sysconfig/createfiles")
