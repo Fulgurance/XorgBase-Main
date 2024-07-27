@@ -32,6 +32,8 @@ class Target < ISM::Software
                         path:           buildDirectoryPath,
                         environment:    {"DESTDIR" => "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}"})
 
+        makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}etc/sysconfig")
+
         createFilesData = <<-CODE
         /tmp/.X11-unix dir 1777 root root
         CODE
