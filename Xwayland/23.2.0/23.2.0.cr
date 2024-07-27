@@ -14,7 +14,8 @@ class Target < ISM::Software
                                     --prefix=/usr                           \
                                     --buildtype=release                     \
                                     -Dxkb_output_dir=/var/lib/xkb           \
-                                    -Dxdmcp=false",
+                                    -Dxdmcp=false                           \
+                                    -Dsecure-rpc=false",
                         path:       mainWorkDirectoryPath)
     end
 
