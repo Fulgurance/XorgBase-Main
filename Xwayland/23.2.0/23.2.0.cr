@@ -15,7 +15,7 @@ class Target < ISM::Software
                                     --buildtype=release                     \
                                     -Dxkb_output_dir=/var/lib/xkb           \
                                     -Dxdmcp=false                           \
-                                    -Dsecure-rpc=#{option("Libtirpc") ? "true" : "false",
+                                    -Dsecure-rpc=#{option("Libtirpc") ? "true" : "false"}",
                         path:       mainWorkDirectoryPath)
     end
 
