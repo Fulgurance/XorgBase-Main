@@ -91,28 +91,14 @@
       "kernelDependencies": []
     },
     {
-      "name": "Wayland",
-      "description": "Enable wayland support for Xwayland",
+      "name": "Xwayland",
+      "description": "Enable xwayland support",
       "active": false,
       "dependencies": [
         {
-          "port": "GraphicsLibraries-Main",
-          "name": "Wayland",
-          "version": ">=1.22.0",
-          "options": []
-        }
-      ],
-      "kernelDependencies": []
-    },
-    {
-      "name": "Wayland-Protocols",
-      "description": "Enable wayland-protocols support",
-      "active": false,
-      "dependencies": [
-        {
-          "port": "GraphicsLibraries-Main",
-          "name": "Wayland-Protocols",
-          "version": ">=1.32.0",
+          "port": "XorgBase-Main",
+          "name": "Xwayland",
+          "version": ">=23.2.0",
           "options": []
         }
       ],
