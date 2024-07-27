@@ -13,7 +13,8 @@ class Target < ISM::Software
                                     #{@buildDirectoryNames["MainBuild"]}    \
                                     --prefix=/usr                           \
                                     --buildtype=release                     \
-                                    -Dxkb_output_dir=/var/lib/xkb",
+                                    -Dxkb_output_dir=/var/lib/xkb           \
+                                    -Dxdmcp=false",
                         path:       mainWorkDirectoryPath)
     end
 
