@@ -93,7 +93,7 @@
     {
       "name": "Xwayland",
       "description": "Enable xwayland support",
-      "active": false,
+      "active": true,
       "dependencies": [
         {
           "port": "XorgBase-Main",
