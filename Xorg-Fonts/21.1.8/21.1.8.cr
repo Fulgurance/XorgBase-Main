@@ -1,4 +1,4 @@
-class Target < ISM::Software
+class Target < ISM::SemiVirtualSoftware
 
     def prepareInstallation
         super
