@@ -1,47 +1,23 @@
 class Target < ISM::Software
 
-    def download
-    end
-
-    def check
-    end
-
-    def extract
-    end
-
-    def patch
-    end
-
-    def prepare
-    end
-
-    def configure
-    end
-
-    def build
-    end
-
     def prepareInstallation
+        super
 
-        makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}usr/share/fonts")
-    end
-
-    def install
-
-        runChmodCommand("0755 /usr/share/fonts")
+        makeDirectory("#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/usr/share/fonts")
 
         makeLink(   target: "/usr/share/fonts/X11/OTF",
-                    path:   "/usr/share/fonts/X11-OTF",
+                    path:   "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/usr/share/fonts/X11-OTF",
                     type:   :symbolicLinkByOverwrite)
 
         makeLink(   target: "/usr/share/fonts/X11/TTF",
-                    path:   "/usr/share/fonts/X11-TTF",
+                    path:   "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}/usr/share/fonts/X11-TTF",
                     type:   :symbolicLinkByOverwrite)
-
-        Ism.addInstalledSoftware(@information)
     end
 
-    def clean
+    def install
+        super
+
+        runChmodCommand("0755 /usr/share/fonts")
     end
 
 end
