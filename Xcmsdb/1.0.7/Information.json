@@ -14,7 +14,7 @@
       "options": []
     },
     {
-      "port": "GraphicsLibraries-Main",
+      "port": "XorgBase-Main",
       "name": "LibX11",
       "version": ">=1.8.6",
       "options": []

@@ -1,0 +1,23 @@
+{
+  "port": "XorgBase-Main",
+  "name": "LibIce",
+  "version": "1.1.1",
+  "architectures": ["x86_64"],
+  "description": "Inter-Client Exchange Library",
+  "website": "https://gitlab.freedesktop.org/xorg/lib/libice",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "XorgBase-Main",
+      "name": "Xorgproto",
+      "version": ">=0.0.0-20230201",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}

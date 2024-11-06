@@ -1,0 +1,23 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Xcb-Util-Image",
+  "version": "0.4.1",
+  "architectures": ["x86_64"],
+  "description": "XCB port of Xlib's XImage and XShmImage functions",
+  "website": "https://gitlab.freedesktop.org/xorg/lib/libxcb-image",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "XorgBase-Main",
+      "name": "Xcb-Util",
+      "version": ">=0.4.1",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}

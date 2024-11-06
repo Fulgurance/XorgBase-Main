@@ -14,19 +14,19 @@
       "options": []
     },
     {
-      "port": "GraphicsLibraries-Main",
+      "port": "XorgBase-Main",
       "name": "LibXv",
       "version": ">=1.0.12",
       "options": []
     },
     {
-      "port": "GraphicsLibraries-Main",
+      "port": "XorgBase-Main",
       "name": "LibX11",
       "version": ">=1.8.6",
       "options": []
     },
     {
-      "port": "GraphicsLibraries-Main",
+      "port": "XorgBase-Main",
       "name": "Xorgproto",
       "version": ">=0.0.0-20230201",
       "options": []

@@ -1,0 +1,23 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Libxcvt",
+  "version": "0.1.2",
+  "architectures": ["x86_64"],
+  "description": "VESA CVT standard timing modeline generation library & utility",
+  "website": "https://gitlab.freedesktop.org/xorg/lib/libxcvt",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "SystemBase-Main",
+      "name": "SystemBase",
+      "version": ">=0.2.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}

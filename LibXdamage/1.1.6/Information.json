@@ -1,0 +1,35 @@
+{
+  "port": "XorgBase-Main",
+  "name": "LibXdamage",
+  "version": "1.1.6",
+  "architectures": ["x86_64"],
+  "description": "X Damage Extension library",
+  "website": "https://gitlab.freedesktop.org/xorg/lib/libxdamage",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "XorgBase-Main",
+      "name": "LibXfixes",
+      "version": ">=6.0.1",
+      "options": []
+    },
+    {
+      "port": "XorgBase-Main",
+      "name": "LibXext",
+      "version": ">=1.3.5",
+      "options": []
+    },
+    {
+      "port": "XorgBase-Main",
+      "name": "LibX11",
+      "version": ">=1.8.6",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}

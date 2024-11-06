@@ -14,7 +14,7 @@
       "options": []
     },
     {
-      "port": "GraphicsLibraries-Main",
+      "port": "XorgBase-Main",
       "name": "Xorgproto",
       "version": ">=0.0.0-20230201",
       "options": []

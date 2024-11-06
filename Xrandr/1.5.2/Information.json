@@ -14,25 +14,25 @@
       "options": []
     },
     {
-      "port": "GraphicsLibraries-Main",
+      "port": "XorgBase-Main",
       "name": "LibXrandr",
       "version": ">=1.5.3",
       "options": []
     },
     {
-      "port": "GraphicsLibraries-Main",
+      "port": "XorgBase-Main",
       "name": "LibXrender",
       "version": ">=0.9.11",
       "options": []
     },
     {
-      "port": "GraphicsLibraries-Main",
+      "port": "XorgBase-Main",
       "name": "LibX11",
       "version": ">=1.8.6",
       "options": []
     },
     {
-      "port": "GraphicsLibraries-Main",
+      "port": "XorgBase-Main",
       "name": "Xorgproto",
       "version": ">=0.0.0-20230201",
       "options": []

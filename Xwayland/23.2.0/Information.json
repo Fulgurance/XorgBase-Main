@@ -8,7 +8,7 @@
   "installedFiles": [],
   "dependencies": [
     {
-      "port": "GraphicsLibraries-Main",
+      "port": "XorgBase-Main",
       "name": "Libxcvt",
       "version": ">=0.1.2",
       "options": []

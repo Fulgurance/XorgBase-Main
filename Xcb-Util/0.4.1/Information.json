@@ -1,0 +1,23 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Xcb-Util",
+  "version": "0.4.1",
+  "architectures": ["x86_64"],
+  "description": "Replacement for Xlib featuring a small footprint, latency hiding, direct access to the protocol, improved threading support, and extensibility",
+  "website": "https://gitlab.freedesktop.org/xorg/lib/libxcb-util",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "XorgBase-Main",
+      "name": "Libxcb",
+      "version": ">=1.16.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}

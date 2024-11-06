@@ -14,31 +14,31 @@
       "options": []
     },
     {
-      "port": "GraphicsLibraries-Main",
+      "port": "XorgBase-Main",
       "name": "LibXext",
       "version": ">=1.3.5",
       "options": []
     },
     {
-      "port": "GraphicsLibraries-Main",
+      "port": "XorgBase-Main",
       "name": "LibX11",
       "version": ">=1.8.6",
       "options": []
     },
     {
-      "port": "GraphicsLibraries-Main",
+      "port": "XorgBase-Main",
       "name": "LibXtst",
       "version": ">=1.2.4",
       "options": []
     },
     {
-      "port": "GraphicsLibraries-Main",
+      "port": "XorgBase-Main",
       "name": "Libxcb",
       "version": ">=1.16.0",
       "options": []
     },
     {
-      "port": "GraphicsLibraries-Main",
+      "port": "XorgBase-Main",
       "name": "Xorgproto",
       "version": ">=0.0.0-20230201",
       "options": []

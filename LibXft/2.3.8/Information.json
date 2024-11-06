@@ -1,0 +1,35 @@
+{
+  "port": "XorgBase-Main",
+  "name": "LibXft",
+  "version": "2.3.8",
+  "architectures": ["x86_64"],
+  "description": "X FreeType library",
+  "website": "https://gitlab.freedesktop.org/xorg/lib/libxft",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "XorgBase-Main",
+      "name": "LibXrender",
+      "version": ">=0.9.11",
+      "options": []
+    },
+    {
+      "port": "XorgBase-Main",
+      "name": "LibX11",
+      "version": ">=1.8.6",
+      "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "FreeType",
+      "version": ">=2.13.1",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}

@@ -1,0 +1,23 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Xcb-Util-Keysyms",
+  "version": "0.4.1",
+  "architectures": ["x86_64"],
+  "description": "Standard X key constants and conversion to/from keycodes",
+  "website": "https://gitlab.freedesktop.org/xorg/lib/libxcb-keysyms",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "XorgBase-Main",
+      "name": "Libxcb",
+      "version": ">=1.16.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}

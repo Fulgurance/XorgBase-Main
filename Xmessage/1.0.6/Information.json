@@ -14,8 +14,8 @@
       "options": []
     },
     {
-      "port": "GraphicsLibraries-Main",
-      "name": "LibXaw",
+      "port": "XorgBase-Main",
+      "name": "LibXau",
       "version": ">=1.0.15",
       "options": []
     }

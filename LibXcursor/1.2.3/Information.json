@@ -1,0 +1,35 @@
+{
+  "port": "XorgBase-Main",
+  "name": "LibXcursor",
+  "version": "1.2.3",
+  "architectures": ["x86_64"],
+  "description": "Xlib-based Cursor management library",
+  "website": "https://gitlab.freedesktop.org/xorg/lib/libxcursor",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "XorgBase-Main",
+      "name": "LibXrender",
+      "version": ">=0.9.11",
+      "options": []
+    },
+    {
+      "port": "XorgBase-Main",
+      "name": "LibXfixes",
+      "version": ">=6.0.1",
+      "options": []
+    },
+    {
+      "port": "XorgBase-Main",
+      "name": "LibX11",
+      "version": ">=1.8.6",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}

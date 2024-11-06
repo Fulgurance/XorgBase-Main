@@ -1,0 +1,29 @@
+{
+  "port": "XorgBase-Main",
+  "name": "LibXcomposite",
+  "version": "0.4.6",
+  "architectures": ["x86_64"],
+  "description": "Xlib-based client library for the Composite extension to the X11 protocol",
+  "website": "https://gitlab.freedesktop.org/xorg/lib/libxcomposite",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "XorgBase-Main",
+      "name": "LibX11",
+      "version": ">=1.8.6",
+      "options": []
+    },
+    {
+      "port": "XorgBase-Main",
+      "name": "LibXfixes",
+      "version": ">=6.0.1",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}

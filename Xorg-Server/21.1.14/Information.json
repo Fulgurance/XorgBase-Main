@@ -26,7 +26,7 @@
       "options": []
     },
     {
-      "port": "GraphicsLibraries-Main",
+      "port": "XorgBase-Main",
       "name": "Libxcvt",
       "version": ">=0.1.2",
       "options": []
@@ -82,7 +82,7 @@
       "active": false,
       "dependencies": [
         {
-          "port": "GraphicsLibraries-Main",
+          "port": "XorgBase-Main",
           "name": "LibXdmcp",
           "version": ">=1.1.4",
           "options": []
@@ -180,7 +180,7 @@
       "active": false,
       "dependencies": [
         {
-          "port": "GraphicsLibraries-Main",
+          "port": "XorgBase-Main",
           "name": "Xcb-Util-Keysyms",
           "version": ">=0.4.1",
           "options": []
@@ -194,7 +194,7 @@
       "active": false,
       "dependencies": [
         {
-          "port": "GraphicsLibraries-Main",
+          "port": "XorgBase-Main",
           "name": "Xcb-Util-Image",
           "version": ">=0.4.1",
           "options": []
@@ -208,7 +208,7 @@
       "active": false,
       "dependencies": [
         {
-          "port": "GraphicsLibraries-Main",
+          "port": "XorgBase-Main",
           "name": "Xcb-Util-Renderutil",
           "version": ">=0.3.10",
           "options": []
@@ -222,7 +222,7 @@
       "active": false,
       "dependencies": [
         {
-          "port": "GraphicsLibraries-Main",
+          "port": "XorgBase-Main",
           "name": "Xcb-Util-Wm",
           "version": ">=0.4.2",
           "options": []
