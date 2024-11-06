@@ -1,5 +1,5 @@
 {
-  "port": "XorgServer-Main",
+  "port": "XorgBase-Main",
   "name": "LibFs",
   "version": "1.0.10",
   "architectures": ["x86_64"],
