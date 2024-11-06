@@ -82,7 +82,7 @@
     {
       "port": "XorgBase-Main",
       "name": "LibXau",
-      "version": ">=1.0.15",
+      "version": ">=1.0.11",
       "options": []
     },
     {
