@@ -1,5 +1,5 @@
 {
-  "port": "GraphicsLibraries-Main",
+  "port": "XorgBase-Main",
   "name": "LibFs",
   "version": "1.0.9",
   "architectures": ["x86_64"],
