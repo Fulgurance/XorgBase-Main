@@ -122,8 +122,8 @@
       "options": []
     },
     {
-      "port": "GraphicsLibraries-Main",
-      "name": "LibXfont2",
+      "port": "XorgBase-Main",
+      "name": "LibXfont",
       "version": ">=2.0.6",
       "options": []
     },
