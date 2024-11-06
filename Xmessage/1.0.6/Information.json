@@ -4,7 +4,7 @@
   "version": "1.0.6",
   "architectures": ["x86_64"],
   "description": "Display a message or query in a window",
-  "website": "https://www.x.org",
+  "website": "https://gitlab.freedesktop.org/xorg/app/xmessage",
   "installedFiles": [],
   "dependencies": [
     {

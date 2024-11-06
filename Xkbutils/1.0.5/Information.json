@@ -4,7 +4,7 @@
   "version": "1.0.5",
   "architectures": ["x86_64"],
   "description": "Collection of small XKB utilities",
-  "website": "https://www.x.org",
+  "website": "https://gitlab.freedesktop.org/xorg/app/xkbutils",
   "installedFiles": [],
   "dependencies": [
     {

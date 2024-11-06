@@ -4,7 +4,7 @@
   "version": "1.0.8",
   "architectures": ["x86_64"],
   "description": "Prepares X11 cursor sets for use with libXcursor",
-  "website": "https://www.x.org",
+  "website": "https://gitlab.freedesktop.org/xorg/app/xcursorgen",
   "installedFiles": [],
   "dependencies": [
     {

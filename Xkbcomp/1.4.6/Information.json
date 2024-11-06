@@ -4,7 +4,7 @@
   "version": "1.4.6",
   "architectures": ["x86_64"],
   "description": "XKB keyboard description compiler",
-  "website": "https://www.x.org",
+  "website": "https://gitlab.freedesktop.org/xorg/app/xkbcomp",
   "installedFiles": [],
   "dependencies": [
     {

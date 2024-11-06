@@ -1,0 +1,41 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Xkbcomp",
+  "version": "1.4.7",
+  "architectures": ["x86_64"],
+  "description": "XKB keyboard description compiler",
+  "website": "https://gitlab.freedesktop.org/xorg/app/xkbcomp",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "SystemBase-Main",
+      "name": "SystemBase",
+      "version": ">=0.2.0",
+      "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "LibX11",
+      "version": ">=1.8.6",
+      "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Libxkbfile",
+      "version": ">=1.1.2",
+      "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Xorgproto",
+      "version": ">=0.0.0-20230201",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}

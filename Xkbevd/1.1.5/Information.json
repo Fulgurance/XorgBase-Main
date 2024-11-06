@@ -4,7 +4,7 @@
   "version": "1.1.5",
   "architectures": ["x86_64"],
   "description": "XKB event daemon",
-  "website": "https://www.x.org",
+  "website": "https://gitlab.freedesktop.org/xorg/app/xkbevd",
   "installedFiles": [],
   "dependencies": [
     {

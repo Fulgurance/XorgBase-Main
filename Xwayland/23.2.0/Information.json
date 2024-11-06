@@ -4,7 +4,7 @@
   "version": "23.2.0",
   "architectures": ["x86_64"],
   "description": "X Clients under Wayland",
-  "website": "https://wayland.freedesktop.org/xserver.html",
+  "website": " https://www.x.org/pub/individual/xserver",
   "installedFiles": [],
   "dependencies": [
     {

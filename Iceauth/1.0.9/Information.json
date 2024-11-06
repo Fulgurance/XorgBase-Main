@@ -4,7 +4,7 @@
   "version": "1.0.9",
   "architectures": ["x86_64"],
   "description": "LibICE authority file utility",
-  "website": "https://www.x.org",
+  "website": "https://gitlab.freedesktop.org/xorg/app/iceauth",
   "installedFiles": [],
   "dependencies": [
     {

@@ -1,0 +1,29 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Xmessage",
+  "version": "1.0.7",
+  "architectures": ["x86_64"],
+  "description": "Display a message or query in a window",
+  "website": "https://gitlab.freedesktop.org/xorg/app/xmessage",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "SystemBase-Main",
+      "name": "SystemBase",
+      "version": ">=0.2.0",
+      "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "LibXaw",
+      "version": ">=1.0.15",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}

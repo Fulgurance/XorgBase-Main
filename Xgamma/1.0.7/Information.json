@@ -4,7 +4,7 @@
   "version": "1.0.7",
   "architectures": ["x86_64"],
   "description": "Utility to query and alter the gamma correction of a monitor",
-  "website": "https://www.x.org",
+  "website": "https://gitlab.freedesktop.org/xorg/app/xgamma",
   "installedFiles": [],
   "dependencies": [
     {

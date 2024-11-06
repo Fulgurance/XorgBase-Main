@@ -4,7 +4,7 @@
   "version": "1.2.3",
   "architectures": ["x86_64"],
   "description": "Utility to adjust backlight brightness using RandR extension",
-  "website": "https://www.x.org",
+  "website": "https://gitlab.freedesktop.org/xorg/app/xbacklight",
   "installedFiles": [],
   "dependencies": [
     {

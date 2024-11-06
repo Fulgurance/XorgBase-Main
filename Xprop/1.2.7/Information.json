@@ -1,0 +1,35 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Xprop",
+  "version": "1.2.7",
+  "architectures": ["x86_64"],
+  "description": "Utility to print an X window dump from xwd",
+  "website": "https://gitlab.freedesktop.org/xorg/app/xprop",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "SystemBase-Main",
+      "name": "SystemBase",
+      "version": ">=0.2.0",
+      "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "LibX11",
+      "version": ">=1.8.6",
+      "options": []
+    },
+    {
+      "port": "GraphicsLibraries-Main",
+      "name": "Xorgproto",
+      "version": ">=0.0.0-20230201",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}

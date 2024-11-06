@@ -4,7 +4,7 @@
   "version": "1.4.2",
   "architectures": ["x86_64"],
   "description": "X server & client startup utilities",
-  "website": "https://www.x.org",
+  "website": "https://gitlab.freedesktop.org/xorg/app/xinit",
   "installedFiles": [],
   "dependencies": [
     {

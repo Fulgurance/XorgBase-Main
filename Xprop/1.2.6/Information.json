@@ -4,7 +4,7 @@
   "version": "1.2.6",
   "architectures": ["x86_64"],
   "description": "Utility to print an X window dump from xwd",
-  "website": "https://www.x.org",
+  "website": "https://gitlab.freedesktop.org/xorg/app/xprop",
   "installedFiles": [],
   "dependencies": [
     {

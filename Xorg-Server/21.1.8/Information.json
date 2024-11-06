@@ -4,7 +4,7 @@
   "version": "21.1.8",
   "architectures": ["x86_64"],
   "description": "X server",
-  "website": "https://www.x.org",
+  "website": "https://gitlab.freedesktop.org/xorg/xserver",
   "installedFiles": [],
   "dependencies": [
     {
