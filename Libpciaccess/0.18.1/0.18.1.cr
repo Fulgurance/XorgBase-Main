@@ -1,27 +1,33 @@
 class Target < ISM::Software
+
+    def prepare
+        @buildDirectory = true
+        super
+    end
     
     def configure
         super
 
-        configureSource(arguments:  "--prefix=/usr          \
-                                    --sysconfdir=/etc       \
-                                    --localstatedir=/var    \
-                                    --disable-static        \
-                                    --docdir=/usr/share/doc/#{versionName}",
-                        path:       buildDirectoryPath)
+        runMesonCommand(arguments:  "setup                                  \
+                                    --reconfigure                           \
+                                    #{@buildDirectoryNames["MainBuild"]}    \
+                                    --prefix=/usr                           \
+                                    --buildtype=release",
+                        path:       mainWorkDirectoryPath)
     end
     
     def build
         super
 
-        makeSource(path: buildDirectoryPath)
+        runNinjaCommand(path: buildDirectoryPath)
     end
     
     def prepareInstallation
         super
 
-        makeSource( arguments:  "DESTDIR=#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath} install",
-                    path:       buildDirectoryPath)
+        runNinjaCommand(arguments:      "install",
+                        path:           buildDirectoryPath,
+                        environment:    {"DESTDIR" => "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}"})
     end
 
     def install
