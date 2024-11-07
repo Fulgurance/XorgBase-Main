@@ -1,5 +1,11 @@
 class Target < ISM::Software
 
+    def prepare
+        super
+
+        runAutoreconfCommand(path: buildDirectoryPath)
+    end
+
     def configure
         super
 
