@@ -1,5 +1,11 @@
 class Target < ISM::Software
 
+    def prepare
+        super
+
+        runAutoreconfCommand(arguments: "-fiv")
+    end
+
     def configure
         super
 
