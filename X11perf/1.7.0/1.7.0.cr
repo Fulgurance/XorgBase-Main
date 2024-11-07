@@ -3,7 +3,8 @@ class Target < ISM::Software
     def prepare
         super
 
-        runAutoreconfCommand(path: buildDirectoryPath)
+        runAutoreconfCommand(   arguments: "-fiv",
+                                path: buildDirectoryPath)
     end
 
     def configure
