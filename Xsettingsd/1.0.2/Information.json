@@ -1,0 +1,23 @@
+{
+  "port": "XorgBase-Main",
+  "name": "Xsettingsd",
+  "version": "1.0.2",
+  "architectures": ["x86_64"],
+  "description": "Configure X11 applications via XSETTINGS specification",
+  "website": "https://codeberg.org/derat/xsettingsd",
+  "installedFiles": [],
+  "dependencies": [
+    {
+      "port": "SystemBase-Main",
+      "name": "SystemBase",
+      "version": ">=0.2.0",
+      "options": []
+    }
+  ],
+  "kernelDependencies": [],
+  "options": [],
+  "uniqueDependencies": [],
+  "uniqueOptions": [],
+  "selectedDependencies": [],
+  "allowCodependencies": []
+}
