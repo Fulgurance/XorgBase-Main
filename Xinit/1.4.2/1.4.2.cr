@@ -28,8 +28,6 @@ class Target < ISM::Software
         super
 
         runLdconfigCommand
-
-        runChmodCommand("u+s #{Ism.settings.rootPath}usr/libexec/Xorg")
     end
 
 end
