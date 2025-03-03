@@ -14,10 +14,4 @@ class Target < ISM::SemiVirtualSoftware
                     type:   :symbolicLinkByOverwrite)
     end
 
-    def install
-        super
-
-        runChmodCommand("0755 /usr/share/fonts")
-    end
-
 end
