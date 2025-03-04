@@ -30,10 +30,4 @@ class Target < ISM::Software
                         environment:    {"DESTDIR" => "#{builtSoftwareDirectoryPath}#{Ism.settings.rootPath}"})
     end
 
-    def install
-        super
-
-        runLdconfigCommand
-    end
-
 end

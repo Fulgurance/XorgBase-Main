@@ -25,10 +25,4 @@ class Target < ISM::Software
                     path:       buildDirectoryPath)
     end
 
-    def install
-        super
-
-        runLdconfigCommand
-    end
-
 end
