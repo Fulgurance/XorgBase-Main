@@ -12,6 +12,12 @@
       "name": "Util-Macros",
       "version": ">=1.20.0",
       "options": []
+    },
+    {
+      "port": "ProgrammingTools-Main",
+      "name": "Meson",
+      "version": ">=1.6.0",
+      "options": []
     }
   ],
   "kernelDependencies": [],
