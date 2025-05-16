@@ -42,7 +42,7 @@
         {
           "port": "Utilities-Main",
           "name": "Elogind",
-          "version": "252.9.0",
+          "version": ">=252.9.0",
           "options": ["Linux-Pam","Polkit"]
         }
       ],
