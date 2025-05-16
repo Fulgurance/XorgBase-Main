@@ -8,13 +8,14 @@ class Target < ISM::Software
     def configure
         super
 
-        runMesonCommand(arguments:  "setup                                  \
-                                    --reconfigure                           \
-                                    #{@buildDirectoryNames["MainBuild"]}    \
-                                    --prefix=/usr                           \
-                                    --buildtype=release                     \
-                                    -Dxkb_output_dir=/var/lib/xkb           \
-                                    -Dxdmcp=false                           \
+        runMesonCommand(arguments:  "setup                                              \
+                                    --reconfigure                                       \
+                                    #{@buildDirectoryNames["MainBuild"]}                \
+                                    --prefix=/usr                                       \
+                                    --buildtype=release                                 \
+                                    -Dxkb_output_dir=/var/lib/xkb                       \
+                                    -Dxdmcp=false                                       \
+                                    -Dglamor=#{option("Libepoxy") ? "true" : "false"}   \
                                     -Dsecure-rpc=#{option("Libtirpc") ? "true" : "false"}",
                         path:       mainWorkDirectoryPath)
     end
