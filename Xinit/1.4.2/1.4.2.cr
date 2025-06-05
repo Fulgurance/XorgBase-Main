@@ -24,4 +24,11 @@ class Target < ISM::Software
                     path:       buildDirectoryPath)
     end
 
+    def deploy
+        super
+
+        runChownCommand("root:root /usr/libexec/Xorg")
+        runChmodCommand("u+s /usr/libexec/Xorg")
+    end
+
 end
