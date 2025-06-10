@@ -12,6 +12,12 @@
       "name": "Cmake",
       "version": ">=3.27.2",
       "options": []
+    },
+    {
+      "port": "XorgBase-Main",
+      "name": "LibX11",
+      "version": ">=1.8.6",
+      "options": []
     }
   ],
   "kernelDependencies": [],
