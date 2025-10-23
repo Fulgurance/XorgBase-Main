@@ -1,0 +1,19 @@
+PORT
+    XorgBase-Main
+NAME
+    LibXrender
+VERSION
+    0.9.11
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Xlib library for the Render Extension to the X11 protocol
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/lib/libxrender
+DEPENDENCIES
+        @XorgBase-Main:LibX11>=1.8.6
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

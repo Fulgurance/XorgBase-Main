@@ -1,0 +1,34 @@
+PORT
+    XorgBase-Main
+NAME
+    Libxkbcommon
+VERSION
+    1.5.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Library for handling of keyboard descriptions
+WEBSITE
+    https://github.com/xkbcommon/libxkbcommon
+DEPENDENCIES
+        @XorgBase-Main:Xkeyboard-Config>=2.39.0
+KERNELDEPENDENCIES
+OPTIONS
+    name: Libxcb
+    description: Enable libxcb support
+    active: false
+    dependencies:
+        @XorgBase-Main:Libxcb>=1.16.0
+    kernelDependencies:
+
+    name: Wayland
+    description: Enable wayland support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Wayland>=1.22.0
+        @GraphicsLibraries-Main:Wayland-Protocols>=1.32.0
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

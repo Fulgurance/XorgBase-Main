@@ -1,0 +1,21 @@
+PORT
+    XorgBase-Main
+NAME
+    LibXfont
+VERSION
+    2.0.7
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    X font handling library for server & utilities
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/lib/libxfont
+DEPENDENCIES
+        @XorgBase-Main:Xorgproto>=0.0.0-20230201
+        @XorgBase-Main:Libfontenc>=1.1.7
+        @GraphicsLibraries-Main:FreeType>=2.13.1
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

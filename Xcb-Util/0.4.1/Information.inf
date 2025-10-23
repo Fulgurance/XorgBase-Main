@@ -1,0 +1,19 @@
+PORT
+    XorgBase-Main
+NAME
+    Xcb-Util
+VERSION
+    0.4.1
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Replacement for Xlib featuring a small footprint, latency hiding, direct access to the protocol, improved threading support, and extensibility
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/lib/libxcb-util
+DEPENDENCIES
+        @XorgBase-Main:Libxcb>=1.16.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

@@ -1,0 +1,121 @@
+PORT
+    XorgBase-Main
+NAME
+    Xorg-Server
+VERSION
+    21.1.14
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    X server
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/xserver
+DEPENDENCIES
+        @GraphicsLibraries-Main:Pixman>=0.42.2
+        @XorgBase-Main:Xorg-Fonts>=21.1.8(Font-Util)
+        @XorgBase-Main:Xkeyboard-Config>=2.39.0
+        @XorgBase-Main:Libxcvt>=0.1.2
+KERNELDEPENDENCIES
+OPTIONS
+    name: Elogind
+    description: Enable elogind support
+    active: true
+    dependencies:
+        @Utilities-Main:Elogind>=252.9.0(Linux-Pam,Polkit)
+    kernelDependencies:
+
+    name: Libepoxy
+    description: Enable libepoxy support needed for glamor
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Libepoxy>=1.5.10
+    kernelDependencies:
+
+    name: Libtirpc
+    description: Enable libtirpc support
+    active: false
+    dependencies:
+        @NetworkingLibraries-Main:Libtirpc>=1.3.3
+    kernelDependencies:
+
+    name: LibXdmcp
+    description: Enable libXdmcp support
+    active: false
+    dependencies:
+        @XorgBase-Main:LibXdmcp>=1.1.4
+    kernelDependencies:
+
+    name: Xwayland
+    description: Enable xwayland support
+    active: true
+    dependencies:
+        @XorgBase-Main:Xwayland>=23.2.0
+    kernelDependencies:
+
+    name: Xf86-Input-Libinput
+    description: Enable xf86-input-libinput support
+    active: false
+    dependencies:
+        @InputDrivers-Main:Xf86-Input-Libinput>=1.3.0
+    kernelDependencies:
+
+    name: Acpid
+    description: Enable acpid support
+    active: true
+    dependencies:
+        @Utilities-Main:Acpid>=2.0.34
+    kernelDependencies:
+
+    name: Libunwind
+    description: Enable libunwind support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Libunwind>=1.6.2
+    kernelDependencies:
+
+    name: Nettle
+    description: Enable nettle support
+    active: false
+    dependencies:
+        @SecurityLibraries-Main:Nettle>=3.9.1
+    kernelDependencies:
+
+    name: Libgcrypt
+    description: Enable libgcrypt support
+    active: false
+    dependencies:
+        @SecurityLibraries-Main:Libgcrypt>=1.10.2
+    kernelDependencies:
+
+    name: Xcb-Util-Keysyms
+    description: Enable xcb-util-keysyms support
+    active: false
+    dependencies:
+        @XorgBase-Main:Xcb-Util-Keysyms>=0.4.1
+    kernelDependencies:
+
+    name: Xcb-Util-Image
+    description: Enable xcb-util-image support
+    active: false
+    dependencies:
+        @XorgBase-Main:Xcb-Util-Image>=0.4.1
+    kernelDependencies:
+
+    name: Xcb-Util-Renderutil
+    description: Enable xcb-util-renderutil support
+    active: false
+    dependencies:
+        @XorgBase-Main:Xcb-Util-Renderutil>=0.3.10
+    kernelDependencies:
+
+    name: Xcb-Util-Wm
+    description: Enable xcb-util-Wm support
+    active: false
+    dependencies:
+        @XorgBase-Main:Xcb-Util-Wm>=0.4.2
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES
+    @InputDrivers-Main:Xf86-Input-Libinput

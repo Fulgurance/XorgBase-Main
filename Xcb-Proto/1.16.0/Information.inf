@@ -1,0 +1,19 @@
+PORT
+    XorgBase-Main
+NAME
+    Xcb-Proto
+VERSION
+    1.16.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    XML-XCB protocol descriptions used by libxcb for the X11 protocol & extensions
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/proto/xcbproto
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

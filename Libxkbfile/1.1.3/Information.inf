@@ -1,0 +1,19 @@
+PORT
+    XorgBase-Main
+NAME
+    Libxkbfile
+VERSION
+    1.1.3
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    XKB file handling routines
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/lib/libxkbfile
+DEPENDENCIES
+        @XorgBase-Main:LibX11>=1.8.6
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

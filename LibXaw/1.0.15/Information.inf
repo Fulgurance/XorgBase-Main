@@ -1,0 +1,23 @@
+PORT
+    XorgBase-Main
+NAME
+    LibXaw
+VERSION
+    1.0.15
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    X Athena Widget Set based on the X Toolkit Intrinsics (Xt) Library
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/lib/libxaw
+DEPENDENCIES
+        @XorgBase-Main:Xorgproto>=0.0.0-20230201
+        @XorgBase-Main:LibX11>=1.8.6
+        @XorgBase-Main:LibXext>=1.3.5
+        @XorgBase-Main:LibXt>=1.3.0
+        @XorgBase-Main:LibXmu>=1.1.4
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

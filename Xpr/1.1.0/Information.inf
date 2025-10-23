@@ -1,0 +1,22 @@
+PORT
+    XorgBase-Main
+NAME
+    Xpr
+VERSION
+    1.1.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Utility to print an X window dump from xwd
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/app/xpr
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+        @XorgBase-Main:LibXmu>=1.1.4
+        @XorgBase-Main:LibX11>=1.8.6
+        @XorgBase-Main:Xorgproto>=0.0.0-20230201
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

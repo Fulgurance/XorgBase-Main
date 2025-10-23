@@ -1,0 +1,19 @@
+PORT
+    XorgBase-Main
+NAME
+    Xcb-Util-Image
+VERSION
+    0.4.1
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    XCB port of Xlib's XImage and XShmImage functions
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/lib/libxcb-image
+DEPENDENCIES
+        @XorgBase-Main:Xcb-Util>=0.4.1
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

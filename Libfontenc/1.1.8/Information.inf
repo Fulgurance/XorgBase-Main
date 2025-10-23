@@ -1,0 +1,19 @@
+PORT
+    XorgBase-Main
+NAME
+    Libfontenc
+VERSION
+    1.1.8
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    X font encoding library
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/lib/libfontenc
+DEPENDENCIES
+        @XorgBase-Main:Xorgproto>=0.0.0-20230201
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

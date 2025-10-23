@@ -1,0 +1,19 @@
+PORT
+    XorgBase-Main
+NAME
+    Libxshmfence
+VERSION
+    1.3.2
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Shared memory 'SyncFence' synchronization primitive
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/lib/libxshmfence
+DEPENDENCIES
+        @XorgBase-Main:Xorgproto>=0.0.0-20230201
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

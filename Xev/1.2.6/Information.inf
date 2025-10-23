@@ -1,0 +1,22 @@
+PORT
+    XorgBase-Main
+NAME
+    Xev
+VERSION
+    1.2.6
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    X event monitor
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/app/xev
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+        @XorgBase-Main:Xrandr>=1.5.2
+        @XorgBase-Main:LibX11>=1.8.6
+        @XorgBase-Main:Xorgproto>=0.0.0-20230201
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

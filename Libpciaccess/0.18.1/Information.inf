@@ -1,0 +1,19 @@
+PORT
+    XorgBase-Main
+NAME
+    Libpciaccess
+VERSION
+    0.18.1
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Generic PCI access library
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/lib/libpciaccess
+DEPENDENCIES
+        @ProgrammingTools-Main:Meson>=1.6.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

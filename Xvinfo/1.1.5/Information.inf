@@ -1,0 +1,22 @@
+PORT
+    XorgBase-Main
+NAME
+    Xvinfo
+VERSION
+    1.1.5
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Utility to print out X-Video extension adaptor information
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/app/xvinfo
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+        @XorgBase-Main:LibXv>=1.0.12
+        @XorgBase-Main:LibX11>=1.8.6
+        @XorgBase-Main:Xorgproto>=0.0.0-20230201
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

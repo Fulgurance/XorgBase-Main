@@ -1,0 +1,20 @@
+PORT
+    XorgBase-Main
+NAME
+    LibXinerama
+VERSION
+    1.1.5
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Xlib API for Xinerama extension to X11 Protocol
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/lib/libxinerama
+DEPENDENCIES
+        @XorgBase-Main:LibX11>=1.8.6
+        @XorgBase-Main:LibXext>=1.3.5
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

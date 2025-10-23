@@ -1,0 +1,21 @@
+PORT
+    XorgBase-Main
+NAME
+    Xwininfo
+VERSION
+    1.1.6
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Utility to print information about windows on an X server
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/app/xwininfo
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+        @XorgBase-Main:Libxcb>=1.16.0
+        @XorgBase-Main:LibX11>=1.8.6
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

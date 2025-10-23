@@ -1,0 +1,21 @@
+PORT
+    XorgBase-Main
+NAME
+    Xwud
+VERSION
+    1.0.6
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Utility to display an image in XWD format
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/app/xwud
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+        @XorgBase-Main:LibX11>=1.8.6
+        @XorgBase-Main:Xorgproto>=0.0.0-20230201
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

@@ -1,0 +1,19 @@
+PORT
+    XorgBase-Main
+NAME
+    LibXpresent
+VERSION
+    1.0.1
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Xlib-based library for the X Present Extension
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/lib/libxpresent
+DEPENDENCIES
+        @XorgBase-Main:Xorgproto>=0.0.0-20230201
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

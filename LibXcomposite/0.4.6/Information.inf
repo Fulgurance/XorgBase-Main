@@ -1,0 +1,20 @@
+PORT
+    XorgBase-Main
+NAME
+    LibXcomposite
+VERSION
+    0.4.6
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Xlib-based client library for the Composite extension to the X11 protocol
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/lib/libxcomposite
+DEPENDENCIES
+        @XorgBase-Main:LibX11>=1.8.6
+        @XorgBase-Main:LibXfixes>=6.0.1
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

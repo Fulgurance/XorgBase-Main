@@ -1,0 +1,19 @@
+PORT
+    XorgBase-Main
+NAME
+    Xcb-Util-Keysyms
+VERSION
+    0.4.1
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Standard X key constants and conversion to/from keycodes
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/lib/libxcb-keysyms
+DEPENDENCIES
+        @XorgBase-Main:Libxcb>=1.16.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

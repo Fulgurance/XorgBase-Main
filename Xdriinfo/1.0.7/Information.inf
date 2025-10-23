@@ -1,0 +1,19 @@
+PORT
+    XorgBase-Main
+NAME
+    Xdriinfo
+VERSION
+    1.0.7
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Utility to query configuration information of X11 DRI drivers
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/app/xdriinfo
+DEPENDENCIES
+        @GraphicsLibraries-Main:Mesa>=23.1.6
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

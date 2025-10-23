@@ -1,0 +1,19 @@
+PORT
+    XorgBase-Main
+NAME
+    Util-Macros
+VERSION
+    1.20.1
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    GNU autoconf macros shared across X.Org projects
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/util/macros
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

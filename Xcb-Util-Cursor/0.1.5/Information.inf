@@ -1,0 +1,21 @@
+PORT
+    XorgBase-Main
+NAME
+    Xcb-Util-Cursor
+VERSION
+    0.1.5
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    XCB port of libXcursor
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/lib/libxcb-cursor
+DEPENDENCIES
+        @XorgBase-Main:Xcb-Util>=0.4.1
+        @XorgBase-Main:Xcb-Util-Renderutil>=0.3.10
+        @XorgBase-Main:Xcb-Util-Image>=0.4.1
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

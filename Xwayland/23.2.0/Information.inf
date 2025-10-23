@@ -1,0 +1,65 @@
+PORT
+    XorgBase-Main
+NAME
+    Xwayland
+VERSION
+    23.2.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    X Clients under Wayland
+WEBSITE
+     https://www.x.org/pub/individual/xserver
+DEPENDENCIES
+        @XorgBase-Main:Libxcvt>=0.1.2
+        @GraphicsLibraries-Main:Pixman>=0.42.2
+        @GraphicsLibraries-Main:Wayland-Protocols>=1.32.0
+        @XorgBase-Main:Xorg-Applications>=21.1.8
+        @XorgBase-Main:Xorg-Fonts>=21.1.8
+KERNELDEPENDENCIES
+OPTIONS
+    name: Libepoxy
+    description: Enable libepoxy support needed for glamor
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Libepoxy>=1.5.10
+    kernelDependencies:
+
+    name: Libtirpc
+    description: Enable libtirpc support
+    active: false
+    dependencies:
+        @NetworkingLibraries-Main:Libtirpc>=1.3.3
+    kernelDependencies:
+
+    name: Mesa
+    description: Enable mesa support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Mesa>=23.1.6
+    kernelDependencies:
+
+    name: Libgcrypt
+    description: Enable libgcrypt support
+    active: false
+    dependencies:
+        @SecurityLibraries-Main:Libgcrypt>=1.10.2
+    kernelDependencies:
+
+    name: Nettle
+    description: Enable nettle support
+    active: false
+    dependencies:
+        @SecurityLibraries-Main:Nettle>=3.9.1
+    kernelDependencies:
+
+    name: Xmlto
+    description: Enable xmlto support
+    active: false
+    dependencies:
+        @Xml-Main:Xmlto>=0.0.28
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

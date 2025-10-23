@@ -1,0 +1,19 @@
+PORT
+    XorgBase-Main
+NAME
+    Xcb-Util-Wm
+VERSION
+    0.4.2
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    XCB client and window-manager helpers for ICCCM & EWMH
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/lib/libxcb-wm
+DEPENDENCIES
+        @XorgBase-Main:Libxcb>=1.16.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

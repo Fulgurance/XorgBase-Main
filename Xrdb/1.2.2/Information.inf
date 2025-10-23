@@ -1,0 +1,22 @@
+PORT
+    XorgBase-Main
+NAME
+    Xrdb
+VERSION
+    1.2.2
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    X resource database utility
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/app/xrdb
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+        @XorgBase-Main:LibXmu>=1.1.4
+        @XorgBase-Main:LibX11>=1.8.6
+        @XorgBase-Main:Xorgproto>=0.0.0-20230201
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

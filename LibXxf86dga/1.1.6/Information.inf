@@ -1,0 +1,21 @@
+PORT
+    XorgBase-Main
+NAME
+    LibXxf86dga
+VERSION
+    1.1.6
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Xlib-based library for the XFree86-DGA extension
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/lib/libxxf86dga
+DEPENDENCIES
+        @XorgBase-Main:Xorgproto>=0.0.0-20230201
+        @XorgBase-Main:LibX11>=1.8.6
+        @XorgBase-Main:LibXext>=1.3.5
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

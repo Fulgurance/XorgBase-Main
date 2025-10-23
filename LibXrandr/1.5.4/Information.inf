@@ -1,0 +1,21 @@
+PORT
+    XorgBase-Main
+NAME
+    LibXrandr
+VERSION
+    1.5.4
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Xlib Resize Rotate and Reflection (RandR) extension library
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/lib/libxrandr
+DEPENDENCIES
+        @XorgBase-Main:LibX11>=1.8.6
+        @XorgBase-Main:LibXext>=1.3.5
+        @XorgBase-Main:LibXrender>=0.9.11
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

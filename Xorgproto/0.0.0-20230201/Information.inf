@@ -1,0 +1,19 @@
+PORT
+    XorgBase-Main
+NAME
+    Xorgproto
+VERSION
+    0.0.0-20230201
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    X Window System unified protocol definitions
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/proto/xorgproto
+DEPENDENCIES
+        @XorgBase-Main:Util-Macros>=1.20.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

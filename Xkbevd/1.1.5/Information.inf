@@ -1,0 +1,21 @@
+PORT
+    XorgBase-Main
+NAME
+    Xkbevd
+VERSION
+    1.1.5
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    XKB event daemon
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/app/xkbevd
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+        @XorgBase-Main:Libxkbfile>=1.1.2
+        @XorgBase-Main:LibX11>=1.8.6
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

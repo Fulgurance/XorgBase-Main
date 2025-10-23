@@ -1,0 +1,20 @@
+PORT
+    XorgBase-Main
+NAME
+    Xsettingsd
+VERSION
+    1.0.2
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Configure X11 applications via XSETTINGS specification
+WEBSITE
+    https://codeberg.org/derat/xsettingsd
+DEPENDENCIES
+        @ProgrammingTools-Main:Cmake>=3.27.2
+        @XorgBase-Main:LibX11>=1.8.6
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

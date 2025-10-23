@@ -1,0 +1,19 @@
+PORT
+    XorgBase-Main
+NAME
+    Xtrans
+VERSION
+    1.5.1
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    X Network Transport layer shared code
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/lib/libxtrans
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

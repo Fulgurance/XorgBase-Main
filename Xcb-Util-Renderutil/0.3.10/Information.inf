@@ -1,0 +1,19 @@
+PORT
+    XorgBase-Main
+NAME
+    Xcb-Util-Renderutil
+VERSION
+    0.3.10
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    XCB convenience functions for the Render extension
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/lib/libxcb-render-util
+DEPENDENCIES
+        @XorgBase-Main:Libxcb>=1.16.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

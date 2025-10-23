@@ -1,0 +1,20 @@
+PORT
+    XorgBase-Main
+NAME
+    Luit
+VERSION
+    1.1.1
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Filter that can be run between an arbitrary application and a UTF-8 terminal emulator
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/app/luit
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+        @XorgBase-Main:Libfontenc>=1.1.4
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

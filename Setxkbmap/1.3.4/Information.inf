@@ -1,0 +1,22 @@
+PORT
+    XorgBase-Main
+NAME
+    Setxkbmap
+VERSION
+    1.3.4
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Set keymaps layouts and options via the X Keyboard Extension
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/app/setxkbmap
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+        @XorgBase-Main:Libxkbfile>=1.1.2
+        @XorgBase-Main:LibX11>=1.8.6
+        @XorgBase-Main:LibXrandr>=1.5.3
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

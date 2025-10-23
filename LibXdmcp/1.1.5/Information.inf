@@ -1,0 +1,40 @@
+PORT
+    XorgBase-Main
+NAME
+    LibXdmcp
+VERSION
+    1.1.5
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    X Display Manager Control Protocol library
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/lib/libxdmcp
+DEPENDENCIES
+        @XorgBase-Main:Xorgproto>=0.0.0-20230201
+KERNELDEPENDENCIES
+OPTIONS
+    name: Xmlto
+    description: Enable xmlto support
+    active: false
+    dependencies:
+        @Xml-Main:Xmlto>=0.0.28
+    kernelDependencies:
+
+    name: Fop
+    description: Enable fop support
+    active: false
+    dependencies:
+        @GraphicsLibraries-Main:Fop>=2.9.0
+    kernelDependencies:
+
+    name: Libxslt
+    description: Enable libxslt support
+    active: false
+    dependencies:
+        @BaseLibraries-Main:Libxslt>=1.1.38
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

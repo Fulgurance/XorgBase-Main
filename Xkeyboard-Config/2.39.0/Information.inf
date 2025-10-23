@@ -1,0 +1,19 @@
+PORT
+    XorgBase-Main
+NAME
+    Xkeyboard-Config
+VERSION
+    2.39.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    The non-arch keyboard configuration database for X Window
+WEBSITE
+    https://gitlab.freedesktop.org/xkeyboard-config/xkeyboard-config
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

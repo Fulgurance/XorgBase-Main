@@ -1,0 +1,19 @@
+PORT
+    XorgBase-Main
+NAME
+    Bdftopcf
+VERSION
+    1.1.2
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Convert X font from Bitmap Distribution Format to Portable Compiled Format
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/util/bdftopcf/
+DEPENDENCIES
+        @XorgBase-Main:Xcursor-Themes>=1.0.7
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

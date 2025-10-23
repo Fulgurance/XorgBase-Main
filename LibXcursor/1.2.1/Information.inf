@@ -1,0 +1,21 @@
+PORT
+    XorgBase-Main
+NAME
+    LibXcursor
+VERSION
+    1.2.1
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Xlib-based Cursor management library
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/lib/libxcursor
+DEPENDENCIES
+        @XorgBase-Main:LibXrender>=0.9.11
+        @XorgBase-Main:LibXfixes>=6.0.1
+        @XorgBase-Main:LibX11>=1.8.6
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

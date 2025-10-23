@@ -1,0 +1,22 @@
+PORT
+    XorgBase-Main
+NAME
+    Xkbcomp
+VERSION
+    1.4.6
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    XKB keyboard description compiler
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/app/xkbcomp
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+        @XorgBase-Main:LibX11>=1.8.6
+        @XorgBase-Main:Libxkbfile>=1.1.2
+        @XorgBase-Main:Xorgproto>=0.0.0-20230201
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

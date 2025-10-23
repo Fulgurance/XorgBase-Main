@@ -1,0 +1,21 @@
+PORT
+    XorgBase-Main
+NAME
+    LibXft
+VERSION
+    2.3.8
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    X FreeType library
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/lib/libxft
+DEPENDENCIES
+        @XorgBase-Main:LibXrender>=0.9.11
+        @XorgBase-Main:LibX11>=1.8.6
+        @GraphicsLibraries-Main:FreeType>=2.13.1
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

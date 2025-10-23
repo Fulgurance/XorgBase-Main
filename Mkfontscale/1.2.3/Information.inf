@@ -1,0 +1,21 @@
+PORT
+    XorgBase-Main
+NAME
+    Mkfontscale
+VERSION
+    1.2.3
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Utilities to create the fonts.scale and fonts.dir index files
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/app/mkfontscale
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+        @XorgBase-Main:Libfontenc>=1.1.7
+        @GraphicsLibraries-Main:FreeType>=2.13.1
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

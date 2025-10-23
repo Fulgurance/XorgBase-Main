@@ -1,0 +1,21 @@
+PORT
+    XorgBase-Main
+NAME
+    Xset
+VERSION
+    1.2.5
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    User preference utility for X servers
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/app/xset
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+        @XorgBase-Main:Xorgproto>=0.0.0-20230201
+        @XorgBase-Main:LibXmu>=1.1.4
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

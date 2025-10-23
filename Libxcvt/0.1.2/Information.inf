@@ -1,0 +1,19 @@
+PORT
+    XorgBase-Main
+NAME
+    Libxcvt
+VERSION
+    0.1.2
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    VESA CVT standard timing modeline generation library & utility
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/lib/libxcvt
+DEPENDENCIES
+        @ProgrammingTools-Main:Ninja>=1.12.1
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

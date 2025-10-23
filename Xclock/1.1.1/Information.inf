@@ -1,0 +1,19 @@
+PORT
+    XorgBase-Main
+NAME
+    Xclock
+VERSION
+    1.1.1
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Analog / digital clock for X
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/app/xclock
+DEPENDENCIES
+        @XorgBase-Main:Xorg-Libraries>=21.1.8
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

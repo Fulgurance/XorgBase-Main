@@ -1,0 +1,21 @@
+PORT
+    XorgBase-Main
+NAME
+    Xprop
+VERSION
+    1.2.7
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Utility to print an X window dump from xwd
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/app/xprop
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+        @XorgBase-Main:LibX11>=1.8.6
+        @XorgBase-Main:Xorgproto>=0.0.0-20230201
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

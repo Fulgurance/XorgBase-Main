@@ -1,0 +1,21 @@
+PORT
+    XorgBase-Main
+NAME
+    LibXfixes
+VERSION
+    6.0.1
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Xlib-based library for the XFIXES Extension
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/lib/libxfixes
+DEPENDENCIES
+        @XorgBase-Main:Xorgproto>=0.0.0-20230201
+        @XorgBase-Main:LibXext>=1.3.5
+        @XorgBase-Main:LibX11>=1.8.6
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

@@ -1,0 +1,21 @@
+PORT
+    XorgBase-Main
+NAME
+    LibXtst
+VERSION
+    1.2.4
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Xlib-based library for XTEST & RECORD extensions
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/lib/libxtst
+DEPENDENCIES
+        @XorgBase-Main:LibX11>=1.8.6
+        @XorgBase-Main:LibXext>=1.3.5
+        @XorgBase-Main:LibXi>=1.8.1
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

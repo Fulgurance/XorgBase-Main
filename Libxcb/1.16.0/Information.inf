@@ -1,0 +1,27 @@
+PORT
+    XorgBase-Main
+NAME
+    Libxcb
+VERSION
+    1.16.0
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    C interface to the X Window System protocol which replaces the traditional Xlib interface
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/lib/libxcb
+DEPENDENCIES
+        @XorgBase-Main:LibXau>=1.0.11
+        @XorgBase-Main:Xcb-Proto>=1.16.0
+KERNELDEPENDENCIES
+OPTIONS
+    name: LibXdmcp
+    description: Enable libXdmcp support
+    active: false
+    dependencies:
+        @XorgBase-Main:LibXdmcp>=1.1.4
+    kernelDependencies:
+
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

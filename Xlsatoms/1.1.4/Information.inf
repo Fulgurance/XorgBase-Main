@@ -1,0 +1,20 @@
+PORT
+    XorgBase-Main
+NAME
+    Xlsatoms
+VERSION
+    1.1.4
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Utility to list interned atoms defined on X server
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/app/xlsatoms
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+        @XorgBase-Main:Libxcb>=1.16.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES
