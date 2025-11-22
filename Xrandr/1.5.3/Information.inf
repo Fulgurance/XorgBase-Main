@@ -1,0 +1,23 @@
+PORT
+    XorgBase-Main
+NAME
+    Xrandr
+VERSION
+    1.5.3
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Command line interface to X11 Resize Rotate and Reflect extension
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/app/xrandr
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+        @XorgBase-Main:LibXrandr>=1.5.3
+        @XorgBase-Main:LibXrender>=0.9.11
+        @XorgBase-Main:LibX11>=1.8.6
+        @XorgBase-Main:Xorgproto>=0.0.0-20230201
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

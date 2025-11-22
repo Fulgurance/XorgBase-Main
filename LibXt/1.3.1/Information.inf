@@ -1,0 +1,23 @@
+PORT
+    XorgBase-Main
+NAME
+    LibXt
+VERSION
+    1.3.1
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    X Toolkit Intrinsics library
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/lib/libxt
+DEPENDENCIES
+        @GraphicsLibraries-Main:LibSm>=1.2.4
+        @XorgBase-Main:LibIce>=1.1.1
+        @XorgBase-Main:LibX11>=1.8.6
+        @XorgBase-Main:Xorgproto>=0.0.0-20230201
+        @XorgBase-Main:Xcb-Proto>=1.16.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

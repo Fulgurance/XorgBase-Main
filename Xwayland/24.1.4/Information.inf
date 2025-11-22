@@ -9,7 +9,7 @@ ARCHITECTURES
 DESCRIPTION
     X Clients under Wayland
 WEBSITE
-     https://www.x.org/pub/individual/xserver
+     https://gitlab.freedesktop.org/xorg/xserver
 DEPENDENCIES
         @XorgBase-Main:Libxcvt>=0.1.2
         @GraphicsLibraries-Main:Pixman>=0.42.2

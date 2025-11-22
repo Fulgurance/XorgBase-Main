@@ -1,0 +1,19 @@
+PORT
+    XorgBase-Main
+NAME
+    Xbacklight
+VERSION
+    1.2.4
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Utility to adjust backlight brightness using RandR extension
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/app/xbacklight
+DEPENDENCIES
+        @XorgBase-Main:Xcb-Util>=0.4.0
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

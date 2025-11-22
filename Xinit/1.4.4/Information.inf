@@ -1,0 +1,19 @@
+PORT
+    XorgBase-Main
+NAME
+    Xinit
+VERSION
+    1.4.4
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    X server & client startup utilities
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/app/xinit
+DEPENDENCIES
+        @XorgBase-Main:Xorg-Libraries>=21.1.8
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES

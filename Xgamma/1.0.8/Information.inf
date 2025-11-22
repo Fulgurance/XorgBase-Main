@@ -1,0 +1,22 @@
+PORT
+    XorgBase-Main
+NAME
+    Xgamma
+VERSION
+    1.0.8
+ARCHITECTURES
+    x86_64
+DESCRIPTION
+    Utility to query and alter the gamma correction of a monitor
+WEBSITE
+    https://gitlab.freedesktop.org/xorg/app/xgamma
+DEPENDENCIES
+        @SystemBase-Main:SystemBase>=0.2.0
+        @XorgBase-Main:LibX11>=1.8.6
+        @XorgBase-Main:LibXxf86vm>=1.1.5
+        @XorgBase-Main:Xorgproto>=0.0.0-20230201
+KERNELDEPENDENCIES
+OPTIONS
+UNIQUEDEPENDENCIES
+UNIQUEOPTIONS
+ALLOWCODEPENDENCIES
