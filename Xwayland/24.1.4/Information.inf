@@ -14,8 +14,8 @@ DEPENDENCIES
         @XorgBase-Main:Libxcvt>=0.1.2
         @GraphicsLibraries-Main:Pixman>=0.42.2
         @GraphicsLibraries-Main:Wayland-Protocols>=1.32.0
-        @XorgBase-Main:Xorg-Applications>=21.1.8
-        @XorgBase-Main:Xorg-Fonts>=21.1.8
+        @XorgBase-Main:Xorg-Applications>=0.0.0
+        @XorgBase-Main:Xorg-Fonts>=0.0.0
 KERNELDEPENDENCIES
 OPTIONS
     name: Libepoxy

@@ -11,7 +11,7 @@ DESCRIPTION
 WEBSITE
     https://gitlab.freedesktop.org/xorg/app/xinit
 DEPENDENCIES
-        @XorgBase-Main:Xorg-Libraries>=21.1.8
+        @XorgBase-Main:Xorg-Libraries>=0.0.0
 KERNELDEPENDENCIES
 OPTIONS
 UNIQUEDEPENDENCIES

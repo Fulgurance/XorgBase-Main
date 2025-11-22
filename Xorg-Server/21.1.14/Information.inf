@@ -12,7 +12,7 @@ WEBSITE
     https://gitlab.freedesktop.org/xorg/xserver
 DEPENDENCIES
         @GraphicsLibraries-Main:Pixman>=0.42.2
-        @XorgBase-Main:Xorg-Fonts>=21.1.8(Font-Util)
+        @XorgBase-Main:Xorg-Fonts>=0.0.0(Font-Util)
         @XorgBase-Main:Xkeyboard-Config>=2.39.0
         @XorgBase-Main:Libxcvt>=0.1.2
 KERNELDEPENDENCIES
